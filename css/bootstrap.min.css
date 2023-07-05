@@ -20,7 +20,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #6222CC;
+  --bs-primary: #b3cc22;
   --bs-secondary: #FBA504;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -51,8 +51,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #726D7B;
-  background-color: #F6F4F9;
+  color: #616162;
+  background-color: #f9f8f4;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -609,6 +609,28 @@ color: #6c757d;
   .container-xl,
   .container-xxl {
     max-width: 1320px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: 1920px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: 2560px;
   }
 }
 
@@ -2536,7 +2558,7 @@ color: #6c757d;
     width: 1rem;
     height: 1rem;
     margin-top: -.25rem;
-    background-color: #6222CC;
+    background-color: #49484b;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -12198,4 +12220,22 @@ fieldset:disabled .btn {
         .d-print-none {
           display: none !important;
         }
-      }}
+      }
+    
+      .para-container {
+        max-width: 900px; /* Adjust the maximum width as desired */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify; /* Add this line to justify the text */
+      }
+            
+      .justify-text {
+        text-align: justify;
+      }
+
+      .small-font {
+        font-size: 5px; /* Adjust the font size as per your preference */
+    }
+    
+    
+    }

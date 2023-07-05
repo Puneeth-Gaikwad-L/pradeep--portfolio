@@ -1,11 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6222CC;
+    --primary: #6610f2;
     --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
 }
-
 
 /*** Spinner ***/
 #spinner {
@@ -133,7 +132,7 @@ h6,
     max-height: 45px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 100%) {
     .sticky-top.navbar-light {
         position: relative;
         background: #FFFFFF;
@@ -216,20 +215,20 @@ h6,
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
         url(../img/blob-bottom-left.png),
-        url(../img/blob-bottom-right.png),
-        url(../img/blob-center.png),
-        url(../img/bg-bottom.png);
+        url(../img/blob-bottom-right.png);
+        /* url(../img/blob-center.png),
+        url(../img/bg-bottom.png); */
     background-position:
         left 0px top 0px,
         right 0px top 0px,
         left 0px bottom 0px,
-        right 0px bottom 0px,
-        center center,
-        center bottom;
+        right 0px bottom 0px;
+        /* center center,
+        bottom; */
     background-repeat: no-repeat;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 2560px) {
     .hero-header {
         padding: 6rem 0 9rem 0;
     }
@@ -514,10 +513,10 @@ h6,
     margin-top: 6rem;
     padding-top: 9rem;
     background:
-        url(../img/bg-top.png),
+        /* url(../img/bg-top.png), */
         url(../img/map.png);
     background-position:
-        center top,
+        /* center top, */
         center center;
     background-repeat: no-repeat;
 }
