@@ -216,15 +216,11 @@ h6,
         url(../img/blob-top-right.png),
         url(../img/blob-bottom-left.png),
         url(../img/blob-bottom-right.png);
-        /* url(../img/blob-center.png),
-        url(../img/bg-bottom.png); */
     background-position:
         left 0px top 0px,
         right 0px top 0px,
         left 0px bottom 0px,
         right 0px bottom 0px;
-        /* center center,
-        bottom; */
     background-repeat: no-repeat;
 }
 
@@ -513,10 +509,8 @@ h6,
     margin-top: 6rem;
     padding-top: 9rem;
     background:
-        /* url(../img/bg-top.png), */
         url(../img/map.png);
     background-position:
-        /* center top, */
         center center;
     background-repeat: no-repeat;
 }
