@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>SQL Blogs</title>
+    <title>Statistics Blogs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -46,7 +46,7 @@
         <div class="position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0">SQL</h1>
+                    <h1 class="m-0">Statistics</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -76,7 +76,7 @@
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-12 text-center">
-                            <h1 class="text-white animated slideInDown">SQL</h1>
+                            <h1 class="text-white animated slideInDown">Statistics</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
@@ -93,192 +93,89 @@
     </div>
     <!-- Navbar & Hero End -->
 
+
 <!-- Content Start -->
+
 <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <article>
-          <h2 class="blog-heading text-center">SELECT Statement</h2><br>
-          <p class="blog-meta">Published on <span class="blog-date">July 6, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
-          <p class="blog-tags">Tags: <a href="#" class="tag">SQL</a>, <a href="#" class="tag">Database</a></p>
+          <h2 class="blog-heading text-center">Basics of Statistics - Part 1</h2><br>
+          <p class="blog-meta">Published on <span class="blog-date">July 7, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
+          <p class="blog-tags">Tags: <a href="second" class="tag">statistics</a>, <a href="#" class="tag">data science</a></p>
           <hr class="blog-separator">
           <div class="text-center">
-            <img src="../../../blogs\2. SQL\2. Select Statement\2.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
+            <img src="../../../blogs/3. Statistics/2. Basics of Statistics/1.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
           </div><br>
-
           <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Introduction</h3>
-            <p>In the world of databases and data manipulation, the SELECT statement stands tall as the cornerstone of SQL (Structured Query Language). This powerful statement empowers data scientists and database professionals to retrieve specific information from databases with precision and efficiency.</p>
-            <p>In this blog post, we'll explore the SELECT statement in SQL, understand its syntax, and discover how it enables us to extract valuable insights from vast amounts of data.</p>
+            <p>Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied.</p>
           </div>
-
+  
           <div class="text-justify">
-            <h3 class="blog-subheading">Understanding the SELECT Statement:</h3>
-            <p>The SELECT statement serves as the foundation for querying databases and fetching desired data. </p>
-            <p>It allows you to specify the columns you want to retrieve, the table from which you want to retrieve the data, and any conditions for filtering the data.</p>
+            <h3 class="blog-subheading">Mean</h3>
+            <p>The mean, also known as the average, is the sum of all values in a data set divided by the total number of values. It is a measure of the central tendency of the data.</p>
+            <div class="text-center">
+              <img src="https://www.gstatic.com/education/formulas2/472522532/en/mean.svg" alt="Mean Formula" class="blog-image" style="max-width: 100%; height: auto;">
+            </div><br>
+            <p><b>For example</b>, if we have a data set of 5 values {2, 4, 6, 8, 10}, the mean is (2+4+6+8+10)/5 = 6.</p>
+            <p>The mean is sensitive to outliers, which are values that are significantly different from the other values in the data set. Outliers can skew the mean and make it an inaccurate representation of the typical value in the data.</p>
+            <p><b>Without using Library:</b></p>
+            <div class="text-center">
+              <img src="../2. Basics of Statistics/mean_code_1.png" alt="Mean Code Without Library" class="blog-image" style="max-width: 100%; height: auto;">
+            </div><br>
+            <p><b>Using Library:</b></p>
+            <div class="text-center">
+              <img src="../2. Basics of Statistics/mean_code_2.png" alt="Mean Code Using Library" class="blog-image" style="max-width: 100%; height: auto;">
+            </div><br>
           </div>
-
+  
           <div class="text-justify">
-            <h3 class="blog-subheading">Syntax of the SELECT Statement:</h3>
-            <p>The basic syntax of the SELECT statement is as follows:</p>
+            <h3 class="blog-subheading">Median</h3>
+            <p>The median is the middle value in a data set when the values are arranged in order. If there is an even number of values, the median is the average of the two middle values. The median is also a measure of central tendency, but unlike the mean, it is not sensitive to outliers.</p>
+            <div class="text-center">
+              <img src="../2. Basics of Statistics/2.webp" alt="Median Image" class="blog-image" style="max-width: 100%; height: auto;">
+            </div><br>
+            <p><b>For example</b>, if we have a data set of 5 values {2, 4, 6, 8, 10}, the median is 6. If we have a data set of 6 values {2, 4, 6, 8, 10, 12}, the median is (6+8)/2 = 7.</p>
+            <p><b>Without using Library:</b></p>
+            <div class="text-center">
+              <img src="../2. Basics of Statistics/median_code_1.png" alt="Median Code Without Library" class="blog-image" style="max-width: 100%; height: auto;">
+            </div><br>
+            <div class="text-justify">
+              <p><b>Using Library:</b></p>
+              <img src="../2. Basics of Statistics/median_code_2.png" alt="Median Code Using Library" class="blog-image" style="max-width: 100%; height: auto;">
+            </div><br>
           </div>
-
-          <pre><code class="language-sql">
-<b>SELECT 
-    column1, 
-    column2, ...
-FROM 
-    table_name
-WHERE condition;</b>
-          </code></pre>
-
+  
           <div class="text-justify">
-            <div class="text-justify">
-
-          <h5>Let's break down the different components of the SELECT statement:</h5>
-
-          <h5 class="blog-subheading">SELECT Clause:</h5>
-          <ul>
-              <li>The SELECT clause specifies the columns you want to retrieve from the table.</li>
-              <li>You can mention specific column names or use the wildcard (*) to retrieve all columns.</li>
-              <li>Example: 
-    <pre><code class="language-sql">
-<b>SELECT 
-       column1, 
-       column2 
-   FROM 
-       table_name;</b></li>
-        </code></pre>
-          </ul>
-
-          <h5 class="blog-subheading">FROM Clause:</h5>
-          <ul>
-              <li>The FROM clause indicates the table from which you want to retrieve the data.</li>
-              <li>You need to provide the name of the table you want to query.</li>
-              <li>Example: 
-    <pre><code class="language-sql">
-<b>SELECT 
-       column1, 
-       column2 
-   FROM 
-       table_name;</b></li>
-    </code></pre>
-          </ul>
-
-          <h5 class="blog-subheading">WHERE Clause:</h5>
-          <ul>
-              <li>The WHERE clause is optional but extremely powerful for filtering data based on specific conditions.</li>
-              <li>It allows you to specify conditions using comparison operators such as '=', '>', '<', '<>', etc.</li>
-              <li>Example: 
-<pre><code class="language-sql">
-<b>SELECT 
-       column1, 
-       column2 
-   FROM 
-       table_name
-   WHERE
-       condition;</b></li>
-    </code></pre>
-    </ul>
-            </div>
-
-            <div class="text-justify">
-                <h3 class="blog-subheading">Using the SELECT Statement:</h3>
-                <div class="text-justify">
-                    <p>Let's delve into some common scenarios and examples of how the SELECT statement can be used effectively:</p>
-                    
-                    <h5 class="blog-subheading">Retrieving Specific Columns:</h5>
-                    <ul>
-                        <li>To fetch specific columns from a table, list the column names after the SELECT keyword.</li>
-                        <li>Example: 
-<pre><code class="language-sql">
-<b>SELECT 
-       name, 
-       age 
-   FROM 
-       customers</b></li>
-</code></pre>
-                    </ul>
-                
-                    <h5 class="blog-subheading">Retrieving All Columns:</h5>    
-                    <ul>
-                        <li>If you want to retrieve all columns from a table, you can use the wildcard (*) symbol.</li>
-                        <li>Example: 
-<pre><code class="language-sql">
-<b>SELECT 
-       * 
-FROM 
-    customers</b></li>
-</code></pre>
-                    </ul>
-                  
-                    <h5 class="blog-subheading">Filtering Data:</h5>    
-                    <ul>
-                        <li>Use the WHERE clause to specify conditions for filtering data based on specific criteria.</li>
-                        <li>Example: 
-<pre><code class="language-sql">
-<b>SELECT 
-       * 
-FROM 
-    customers
-WHERE
-    age > 30</b></li>
-</code></pre>
-                    </ul>
-                  
-                  
-                    <h5 class="blog-subheading">Combining Conditions:</h5>  
-                    <ul>  
-                        <li>You can combine multiple conditions using logical operators such as AND and OR.</li> 
-                        <li>Example: 
-<pre><code class="language-sql">
-<b>SELECT 
-       * 
-FROM 
-    customers
-WHERE
-    age > 30 AND city = 'Bengaluru'</b></li>
-</code></pre>
-                    </ul>
-
-                    <h5 class="blog-subheading">Sorting Data:</h5>  
-                    <ul>  
-                        <li>The ORDER BY clause allows you to sort the retrieved data in ascending (ASC) or descending (DESC) order based on one or more columns.</li> 
-                        <li>Example: 
-<pre><code class="language-sql">
-<b>SELECT 
-       * 
-FROM 
-    customers
-ORDER BY
-    name ASC</b></li>
-</code></pre>
-                    </ul>
-                </div>
-                
-            <div class="text-justify">
-                        <h3 class="blog-subheading">Conclusion</h3>
-                        <p>The SELECT statement is the key to unlocking the power of data retrieval in SQL. With its ability to specify columns, tables, and conditions, it enables data scientists and database professionals to extract valuable information from databases efficiently.</p>
-                        <p>By understanding the syntax and mastering the usage of the SELECT statement, you'll gain the necessary skills to fetch data with precision, filter records, sort results, and perform complex queries. So, embrace the SELECT statement and elevate your data retrieval capabilities in SQL!</p>
-                    </div>
-                </div>
-            </div>
-            
-            <br>
-            <div class="blog-navigation d-flex justify-content-between">
-             <a href="../1. Introduction to SQL for Data Science/introtosqlfords.html" class="btn btn-primary btn-previous">Previous</a>
-             <a href=" " class="btn btn-primary btn-next">Next</a>
-           </div> 
-
-        </div>
+            <h3 class="blog-subheading">Mode</h3>
+            <p>The mode is the value that appears most frequently in a data set. If no value is repeated, there is no mode. The mode is another measure of central tendency.</p>
+            <p><b>For example</b>, if we have a data set of 5 values {2, 4, 6, 8, 10}, there is no mode because each value appears only once. If we have a data set of 6 values {2, 4, 6, 6, 8, 10}, the mode is 6.</p>
+            <p>The mean is sensitive to outliers, which are values that are significantly different from the other values in the data set. Outliers can skew the mean and make it an inaccurate representation of the typical value in the data.</p>
+            <p><b>Without using Library:</b></p>
+            <div class="text-center">
+              <img src="../2. Basics of Statistics/mode_code_1.png" alt="Mode Code Without Library" class="blog-image" style="max-width: 100%; height: auto;">
+            </div><br>
+            <p><b>Using Library:</b></p>
+            <div class="text-center">
+              <img src="../2. Basics of Statistics/mode_code_2.png" alt="Mode Code Using Library" class="blog-image" style="max-width: 100%; height: auto;">
+            </div><br>
+            <p>That's all for this blog, stayed tuned for the next part. See you next time!</p>
+          </div>
+          <br>
+          <div class="blog-navigation d-flex justify-content-between">
+            <a href="../../../blogs/3. Statistics/1. Types of Data/typesofdata.html" class="btn btn-primary btn-previous">Previous</a>
+            <a href="next-blog-url.html" class="btn btn-primary btn-next">Next</a>
+          </div>
+        </article>
+      </div>
     </div>
   </div>
-</div> 
 
+<!-- Content Ends -->
 
-<!-- Footer Start -->
-<div class="bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+  <div class="bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
     <div class="py-5 px-lg-5">
         <div class="row g-5 justify-content-center">
             <div class="col-md-6 col-lg-3">
@@ -357,4 +254,4 @@ ORDER BY
     <script src="../../../js/main.js"></script>
 </body>
 
-</html>          
+</html>
