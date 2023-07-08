@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tableau Blogs</title>
+    <title>Basic Python</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="keywords">
     <meta content="" name="description">
-    <meta property="og:image" content="https://imgur.com/w9655kB.jpg">
+    <meta property="og:image" content="https://imgur.com/f3PsOgN.jpg">
 
     <!-- Favicon -->
     <link href="../../../img/favicon.ico" rel="icon">
@@ -47,7 +47,7 @@
         <div class="position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0">Tableau</h1>
+                    <h1 class="m-0">Basic Python</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -56,8 +56,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                   <div class="navbar-nav mx-auto py-0">
                       <a href="../../../index.html" class="nav-item nav-link">Home</a>
-                      <a href="../../../projects.html" class="nav-item nav-link">Projects</a>
-                      <a href="../../../blogs.html" class="nav-item nav-link active">Blogs</a>
+                      <a href="../../../projects.html" class="nav-item nav-link active">Projects</a>
+                      <a href="../../../blogs.html" class="nav-item nav-link">Blogs</a>
                       <a href="../../../services.html" class="nav-item nav-link">Services</a>
                       <a href="../../../about.html" class="nav-item nav-link">About</a>
                       <a href="../../../contact.html" class="nav-item nav-link">Contact</a>
@@ -77,7 +77,7 @@
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-12 text-center">
-                            <h1 class="text-white animated slideInDown">Tableau</h1>
+                            <h1 class="text-white animated slideInDown">List</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
@@ -94,115 +94,57 @@
     </div>
     <!-- Navbar & Hero End -->
 
-
 <!-- Content Start -->
 <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <article>
-          <h2 class="blog-heading text-center">Mastering Tableau: Best Practices for Effective Data Visualization</h2><br>
-          <p class="blog-meta">Published on <span class="blog-date">July 7, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
-          <p class="blog-tags">Tags: <a href="second" class="tag">Data Visualization</a>, <a href="#" class="tag">Data Science</a></p>
+          <h2 class="blog-heading text-center">Data Manipulation: Swapping Values, Calculating Averages, and Unnesting Lists</h2><br>
+          <p class="blog-meta">Published on <span class="blog-date">July 8, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
+          <p class="blog-tags">Tags: <a href="second" class="tag">Python</a>, <a href="#" class="tag">Programming</a></p>
           <hr class="blog-separator">
           <div class="text-center">
-            <img src="../../../blogs/5. Tableau/1. Mastering Tableau/1.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
+            <img src="../../../projects_blogs/1. Python/1. basic_python/3.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
           </div><br>
 
           <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Introduction</h3>
-            <p>Tableau is a powerful data visualization tool that allows users to analyze, visualize, and share data in a user-friendly and interactive way. To make the most of Tableau's capabilities, it's important to follow best practices for creating effective and impactful visualizations.</p>
-            <p>In this blog post, we'll explore a comprehensive set of best practices to help you unlock the full potential of Tableau.</p>
+            <h3 class="blog-subheading">Introduction:</h3>
+            <p>In this article, we will explore various Python code snippets that focus on data manipulation tasks. We will cover topics such as swapping values in a list, calculating the mean and median of a dataset, and unnesting nested lists. These examples will demonstrate how Python provides powerful functionality to handle data efficiently. Throughout the process, I gained insights into fundamental concepts of Lists.</p>
           </div>
 
+          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Plan your visualization:</h3>
-            <p>Before diving into Tableau, take some time to plan your visualization. Define your goals, target audience, and the key insights you want to convey. </p>
-            <p>Understand the story you want to tell with your data. This planning phase will help you create a clear and focused visualization.</p>
+            <h3 class="blog-subheading">Problem 1: Swapping Highest and Lowest Temperatures</h3>
+            <p>To start, we are given a list of average daily temperatures over a week and asked to swap the highest and lowest temperatures in the list. By utilizing Python's built-in functions, we find the maximum and minimum temperatures, along with their respective indices. With this information, we perform the swap operation and print the updated list.</p>
           </div>
 
+          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Understand your data:</h3>
-            <p>A deep understanding of your data is crucial for effective visualizations. Spend time exploring and analyzing your data before creating visualizations. Identify any data quality issues, outliers, or missing values. </p>
-            <p>This understanding will guide your design choices and ensure accurate representation of insights.</p>
+            <h3 class="blog-subheading">Problem 2: Calculating Mean and Median</h3>
+            <p>Next, we explore measures of averages using a list of product prices. We calculate the mean by dividing the sum of the prices by the number of elements in the list. Then, we sort the list to find the median. Depending on whether the number of elements is odd or even, we determine the middle element(s) and compute the median accordingly. Finally, we compare the mean and median to determine which is greater.</p>
           </div>
 
+          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Keep it simple:</h3>
-            <p>Simplicity is key to creating impactful visualizations. Avoid cluttering your dashboards with unnecessary elements.</p>
-            <p>Choose a clean and minimalist design approach that focuses on the most important information. </p>
-            <p>Use white space effectively to improve readability and guide the viewer's attention.</p>
+            <h3 class="blog-subheading text-justify">Problem 3: Unnesting a Nested List</h3>
+            <p>In this problem, we encounter a list of technology companies. However, the last three companies are nested within a sub-list. To eliminate the nesting, we use the pop() method to remove the sub-list and store it separately. Then, we concatenate the original list with the extracted sub-list to obtain the desired result. Alternatively, we can use the remove() and extend() methods to achieve the same outcome.</p>
           </div>
 
-          <div class="text-justify">
-            <h3 class="blog-subheading">Choose the right chart type:</h3>
-            <p>Tableau offers a wide range of chart types to visualize different types of data. Selecting the appropriate chart type is crucial for effectively communicating your insights. </p>
-            <p>Consider the nature of your data (categorical, numerical, time-based), the relationships you want to highlight, and the story you want to tell. </p>
-            <p>Experiment with different chart types to find the most suitable one.</p>
-            <h5 class="blog-subheading">Check This Out For Best Charts To Use For The Situation</h5><br>
-            <a href="https://public.tableau.com/app/profile/andy.kriebel/viz/VisualVocabulary/VisualVocabulary">1. Visual Vocabulary</a><br>
-            <a href="https://public.tableau.com/shared/34YG368JK?:display_count=n&:origin=viz_share_link">2. To Show Deviation</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Correlation?:language=en-GB&:display_count=n&:origin=viz_share_link">3. To Show Correlation</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Ranking?:language=en-GB&:display_count=n&:origin=viz_share_link">4. To Show Ranking</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Distribution?:language=en-GB&:display_count=n&:origin=viz_share_link">5. To Show Distribution</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/ChangeoverTime?:language=en-GB&:display_count=n&:origin=viz_share_link">6. To Show Change Over Time</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Part-to-Whole?:language=en-GB&:display_count=n&:origin=viz_share_link">7. To Show Part To Whole</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Magnitude?:language=en-GB&:display_count=n&:origin=viz_share_link">8. To Show Magnitude</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Spatial?:language=en-GB&:display_count=n&:origin=viz_share_link">9. To Show Spatial</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Flow?:language=en-GB&:display_count=n&:origin=viz_share_link">10. To Show Flow</a><br>
-          </div><br>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Use color wisely:</h3>
-            <p>Color plays a vital role in data visualization, but it should be used thoughtfully. Choose a color palette that enhances readability and supports your message. </p>
-            <p>Use color sparingly to draw attention to important elements or highlight patterns.</p>
-            <p>Avoid using excessive or conflicting colors that can create visual noise or mislead viewers.</p>
-          </div>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Create meaningful labels and titles:</h3>
-            <p>Labels and titles provide context and guide the viewer through your visualizations. Use clear and concise labels that accurately describe the data being presented. </p>
-            <p>Titles should be informative and capture the main insight or question the visualization addresses. Incorporate annotations to provide additional context or explanations.</p>
-          </div>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Utilize interactivity:</h3>
-            <p>Tableau's interactivity enables users to explore data and gain deeper insights. Leverage interactivity features like filters, parameters, and actions to empower your viewers. </p>
-            <p>Allow them to interact with the visualization and customize their experience. </p>
-            <p>However, be mindful of overwhelming users with excessive interactivity, which may distract from the main message.</p>
-          </div>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Optimize performance:</h3>
-            <p>Efficient performance is essential for a smooth user experience. Tableau allows you to optimize performance by following a few best practices. </p>
-            <p>Minimize the use of large data sets and complex calculations. </p>
-            <p>Aggregate data at the appropriate level to reduce processing time.</p>
-            <p>Utilize Tableau's data source filters and extract data for faster loading.</p>
-          </div>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Test and iterate:</h3>
-            <p>Visualizations are not set in stone; they should evolve and improve over time. Test your visualizations with different user groups and gather feedback. </p>
-            <p>Iterate based on the feedback received, refining your design, layout, and interaction.</p>
-            <p>Continually seek ways to enhance the clarity and impact of your visualizations.</p>
-          </div>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Share and collaborate:</h3>
-            <p>Tableau provides various options for sharing and collaboration. Publish your visualizations to Tableau Server, Tableau Public, or Tableau Online to allow others to view and interact with your work. </p>
-            <p>Enable commenting and collaboration features to encourage discussion and feedback from colleagues or the wider community.</p>
-          </div>
-
+          <hr class="blog-separator">
           <div class="text-justify">
             <h3 class="blog-subheading">Conclusion:</h3>
-            <p>By following these best practices, you can create compelling and effective data visualizations using Tableau.</p>
-            <p>With these best practices, you'll be well on your way to mastering Tableau and telling impactful data stories.</p>
-          </div><br>
-
-          <div class="blog-navigation d-flex justify-content-between">
-            <a href="../../../blogs.html" class="btn btn-primary btn-previous">Previous</a>
-            <a href="" class="btn btn-primary btn-next">Next</a>
+            <p>This article presented Python code snippets for various data manipulation tasks. We learned how to swap values in a list by finding the maximum and minimum elements and their respective indices. We also explored the calculation of mean and median for a dataset, showcasing Python's ability to handle mathematical operations efficiently. Lastly, we examined how to unnest a nested list by extracting the sub-list and merging it with the original list. These examples demonstrate the versatility and power of Python in handling and manipulating data effectively.</p>
           </div>
+
+          <script src="https://gist.github.com/soopertramp/dac9f873399ec077dbe7df4686791c82.js"></script>
+          
+          <br>
+           <div class="blog-navigation d-flex justify-content-between">
+            <a href="../1. basic_python/strings.html" class="btn btn-primary btn-previous">Previous</a>
+            <a href="../1. basic_python/lists.html" class="btn btn-primary btn-next">Next</a>
+          </div> 
+
         </article>
       </div>
     </div>
@@ -288,4 +230,4 @@
     <script src="../../../js/main.js"></script>
 </body>
 
-</html>
+</html>    

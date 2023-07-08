@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tableau Blogs</title>
+    <title>Basic Python</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="keywords">
     <meta content="" name="description">
-    <meta property="og:image" content="https://imgur.com/w9655kB.jpg">
+    <meta property="og:image" content="https://imgur.com/f3PsOgN.jpg">
 
     <!-- Favicon -->
     <link href="../../../img/favicon.ico" rel="icon">
@@ -47,7 +47,7 @@
         <div class="position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0">Tableau</h1>
+                    <h1 class="m-0">Basic Python</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -56,8 +56,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                   <div class="navbar-nav mx-auto py-0">
                       <a href="../../../index.html" class="nav-item nav-link">Home</a>
-                      <a href="../../../projects.html" class="nav-item nav-link">Projects</a>
-                      <a href="../../../blogs.html" class="nav-item nav-link active">Blogs</a>
+                      <a href="../../../projects.html" class="nav-item nav-link active">Projects</a>
+                      <a href="../../../blogs.html" class="nav-item nav-link">Blogs</a>
                       <a href="../../../services.html" class="nav-item nav-link">Services</a>
                       <a href="../../../about.html" class="nav-item nav-link">About</a>
                       <a href="../../../contact.html" class="nav-item nav-link">Contact</a>
@@ -77,7 +77,7 @@
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-12 text-center">
-                            <h1 class="text-white animated slideInDown">Tableau</h1>
+                            <h1 class="text-white animated slideInDown">Strings</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
@@ -94,119 +94,74 @@
     </div>
     <!-- Navbar & Hero End -->
 
-
 <!-- Content Start -->
 <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <article>
-          <h2 class="blog-heading text-center">Mastering Tableau: Best Practices for Effective Data Visualization</h2><br>
-          <p class="blog-meta">Published on <span class="blog-date">July 7, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
-          <p class="blog-tags">Tags: <a href="second" class="tag">Data Visualization</a>, <a href="#" class="tag">Data Science</a></p>
+          <h2 class="blog-heading text-center">Exploring String Operations in Python: Word Count, String Manipulation, and Palindrome Check</h2><br>
+          <p class="blog-meta">Published on <span class="blog-date">July 8, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
+          <p class="blog-tags">Tags: <a href="second" class="tag">Python</a>, <a href="#" class="tag">Programming</a></p>
           <hr class="blog-separator">
           <div class="text-center">
-            <img src="../../../blogs/5. Tableau/1. Mastering Tableau/1.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
+            <img src="../../../projects_blogs/1. Python/1. basic_python/2.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
           </div><br>
 
           <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Introduction</h3>
-            <p>Tableau is a powerful data visualization tool that allows users to analyze, visualize, and share data in a user-friendly and interactive way. To make the most of Tableau's capabilities, it's important to follow best practices for creating effective and impactful visualizations.</p>
-            <p>In this blog post, we'll explore a comprehensive set of best practices to help you unlock the full potential of Tableau.</p>
+            <h3 class="blog-subheading">Introduction:</h3>
+            <p>In this article, we will dive into various string operations using Python. We will cover topics such as word count in a sentence, generating a string of hyphens, determining if a string is a safe bridge, counting the occurrences of a specific letter, and checking if a string is a palindrome. These exercises helped me understand the power and versatility of Python when it comes to manipulating strings. Throughout the process, I gained insights into fundamental concepts.</p>
           </div>
 
+          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Plan your visualization:</h3>
-            <p>Before diving into Tableau, take some time to plan your visualization. Define your goals, target audience, and the key insights you want to convey. </p>
-            <p>Understand the story you want to tell with your data. This planning phase will help you create a clear and focused visualization.</p>
+            <h3 class="blog-subheading">Problem 1: Counting Words in a Sentence</h3>
+            <p>To start, we are given a sentence and tasked with finding the number of words in it. By using the count() method in Python, we can count the number of spaces in the sentence and add 1 to obtain the total word count. In our example sentence, "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation," we find that there are 20 words.</p>
           </div>
 
+          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Understand your data:</h3>
-            <p>A deep understanding of your data is crucial for effective visualizations. Spend time exploring and analyzing your data before creating visualizations. Identify any data quality issues, outliers, or missing values. </p>
-            <p>This understanding will guide your design choices and ensure accurate representation of insights.</p>
+            <h3 class="blog-subheading">Problem 2: Generating a String of Hyphens</h3>
+            <p>Next, we are required to create a Python code that takes a number as input and returns a corresponding string of hyphens. This can be achieved by using the string multiplication feature in Python. By multiplying a hyphen ('-') by the inputted number, we generate a string of hyphens. For instance, if the input is 5, the output will be '-----'.</p>
           </div>
 
+          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Keep it simple:</h3>
-            <p>Simplicity is key to creating impactful visualizations. Avoid cluttering your dashboards with unnecessary elements.</p>
-            <p>Choose a clean and minimalist design approach that focuses on the most important information. </p>
-            <p>Use white space effectively to improve readability and guide the viewer's attention.</p>
+            <h3 class="blog-subheading text-justify">Problem 3: Checking for a Safe Bridge</h3>
+            <p>In this problem, we are asked to determine if a string can be called a safe bridge, meaning it contains no gaps (spaces). To accomplish this, we use the find() method in Python, which returns the index of the first occurrence of a character or substring in a string. If the find() method returns -1, it means there are no spaces in the string, making it a safe bridge. We present the output as a formatted string to convey whether the bridge is safe or not.</p>
           </div>
 
+          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Choose the right chart type:</h3>
-            <p>Tableau offers a wide range of chart types to visualize different types of data. Selecting the appropriate chart type is crucial for effectively communicating your insights. </p>
-            <p>Consider the nature of your data (categorical, numerical, time-based), the relationships you want to highlight, and the story you want to tell. </p>
-            <p>Experiment with different chart types to find the most suitable one.</p>
-            <h5 class="blog-subheading">Check This Out For Best Charts To Use For The Situation</h5><br>
-            <a href="https://public.tableau.com/app/profile/andy.kriebel/viz/VisualVocabulary/VisualVocabulary">1. Visual Vocabulary</a><br>
-            <a href="https://public.tableau.com/shared/34YG368JK?:display_count=n&:origin=viz_share_link">2. To Show Deviation</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Correlation?:language=en-GB&:display_count=n&:origin=viz_share_link">3. To Show Correlation</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Ranking?:language=en-GB&:display_count=n&:origin=viz_share_link">4. To Show Ranking</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Distribution?:language=en-GB&:display_count=n&:origin=viz_share_link">5. To Show Distribution</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/ChangeoverTime?:language=en-GB&:display_count=n&:origin=viz_share_link">6. To Show Change Over Time</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Part-to-Whole?:language=en-GB&:display_count=n&:origin=viz_share_link">7. To Show Part To Whole</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Magnitude?:language=en-GB&:display_count=n&:origin=viz_share_link">8. To Show Magnitude</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Spatial?:language=en-GB&:display_count=n&:origin=viz_share_link">9. To Show Spatial</a><br>
-            <a href="https://public.tableau.com/views/VisualVocabulary/Flow?:language=en-GB&:display_count=n&:origin=viz_share_link">10. To Show Flow</a><br>
-          </div><br>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Use color wisely:</h3>
-            <p>Color plays a vital role in data visualization, but it should be used thoughtfully. Choose a color palette that enhances readability and supports your message. </p>
-            <p>Use color sparingly to draw attention to important elements or highlight patterns.</p>
-            <p>Avoid using excessive or conflicting colors that can create visual noise or mislead viewers.</p>
+            <h3 class="blog-subheading">Problem 4: Counting the Occurrences of a Specific Letter</h3>
+            <p>Here, we are tasked with counting the number of occurrences of the letter 'D' in a given string. We need to perform a case-insensitive search, meaning 'D' and 'd' should both be considered. By using the count() method with both uppercase and lowercase 'D', we calculate the total count of occurrences. In our example, the string "Debris was scattered all over the yard in the densest region of Denmark" contains a total of 5 occurrences of the letter 'D'.</p>
           </div>
 
+          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Create meaningful labels and titles:</h3>
-            <p>Labels and titles provide context and guide the viewer through your visualizations. Use clear and concise labels that accurately describe the data being presented. </p>
-            <p>Titles should be informative and capture the main insight or question the visualization addresses. Incorporate annotations to provide additional context or explanations.</p>
+            <h3 class="blog-subheading">Problem 5: Checking for Palindromes</h3>
+            <p>Lastly, we explore how to check if a given string is a palindrome. A palindrome is a word, number, or sequence of characters that reads the same backward as forward. To determine if a string is a palindrome, we compare the original string with its reversed form using the slicing technique in Python. If the two strings are equal, the inputted string is a palindrome.</p>
           </div>
 
-          <div class="text-justify">
-            <h3 class="blog-subheading">Utilize interactivity:</h3>
-            <p>Tableau's interactivity enables users to explore data and gain deeper insights. Leverage interactivity features like filters, parameters, and actions to empower your viewers. </p>
-            <p>Allow them to interact with the visualization and customize their experience. </p>
-            <p>However, be mindful of overwhelming users with excessive interactivity, which may distract from the main message.</p>
-          </div>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Optimize performance:</h3>
-            <p>Efficient performance is essential for a smooth user experience. Tableau allows you to optimize performance by following a few best practices. </p>
-            <p>Minimize the use of large data sets and complex calculations. </p>
-            <p>Aggregate data at the appropriate level to reduce processing time.</p>
-            <p>Utilize Tableau's data source filters and extract data for faster loading.</p>
-          </div>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Test and iterate:</h3>
-            <p>Visualizations are not set in stone; they should evolve and improve over time. Test your visualizations with different user groups and gather feedback. </p>
-            <p>Iterate based on the feedback received, refining your design, layout, and interaction.</p>
-            <p>Continually seek ways to enhance the clarity and impact of your visualizations.</p>
-          </div>
-
-          <div class="text-justify">
-            <h3 class="blog-subheading">Share and collaborate:</h3>
-            <p>Tableau provides various options for sharing and collaboration. Publish your visualizations to Tableau Server, Tableau Public, or Tableau Online to allow others to view and interact with your work. </p>
-            <p>Enable commenting and collaboration features to encourage discussion and feedback from colleagues or the wider community.</p>
-          </div>
-
+          <hr class="blog-separator">
           <div class="text-justify">
             <h3 class="blog-subheading">Conclusion:</h3>
-            <p>By following these best practices, you can create compelling and effective data visualizations using Tableau.</p>
-            <p>With these best practices, you'll be well on your way to mastering Tableau and telling impactful data stories.</p>
-          </div><br>
-
-          <div class="blog-navigation d-flex justify-content-between">
-            <a href="../../../blogs.html" class="btn btn-primary btn-previous">Previous</a>
-            <a href="" class="btn btn-primary btn-next">Next</a>
+            <p>In this article, we have covered a range of string operations using Python. We learned how to count words in a sentence, generate a string of hyphens, determine if a string is a safe bridge, count occurrences of a specific letter (case insensitive), and check if a string is a palindrome. These exercises showcase the flexibility and power of Python in handling and manipulating strings, making it a valuable tool for various text-based tasks and applications.</p>
           </div>
+
+          <script src="https://gist.github.com/soopertramp/b1abf3795ae89227c24b9e6837515453.js"></script>
+          
+          <br>
+           <div class="blog-navigation d-flex justify-content-between">
+            <a href="../1. basic_python/int_float_bool.html" class="btn btn-primary btn-previous">Previous</a>
+            <a href="../1. basic_python/lists.html" class="btn btn-primary btn-next">Next</a>
+          </div> 
+
         </article>
       </div>
     </div>
 </div>
+
 
 <!-- Footer Start -->
 <div class="bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
@@ -288,4 +243,4 @@
     <script src="../../../js/main.js"></script>
 </body>
 
-</html>
+</html>    
