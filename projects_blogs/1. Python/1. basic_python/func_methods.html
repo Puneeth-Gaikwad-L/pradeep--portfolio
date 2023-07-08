@@ -77,7 +77,7 @@
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-12 text-center">
-                            <h1 class="text-white animated slideInDown">List</h1>
+                            <h1 class="text-white animated slideInDown">Functions and Methods</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
@@ -99,50 +99,56 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <article>
-          <h2 class="blog-heading text-center">Data Manipulation: Swapping Values, Calculating Averages, and Unnesting Lists</h2><br>
+          <h2 class="blog-heading text-center">Python Functions for Excel Column Conversion, Classification Model Evaluation, Precision, Recall, and Word Counts</h2><br>
           <p class="blog-meta">Published on <span class="blog-date">July 8, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
           <p class="blog-tags">Tags: <a href="second" class="tag">Python</a>, <a href="#" class="tag">Programming</a></p>
           <hr class="blog-separator">
           <div class="text-center">
-            <img src="../../../projects_blogs/1. Python/1. basic_python/3.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
+            <img src="../../../projects_blogs/1. Python/1. basic_python/8.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
           </div><br>
 
           <hr class="blog-separator">
           <div class="text-justify">
             <h3 class="blog-subheading">Introduction:</h3>
-            <p>In this article, we will explore various Python code snippets that focus on data manipulation tasks. We will cover topics such as swapping values in a list, calculating the mean and median of a dataset, and unnesting nested lists. These examples will demonstrate how Python provides powerful functionality to handle data efficiently. Throughout the process, I gained insights into fundamental concepts of Lists.</p>
+            <p>Python offers a wide range of functionalities and libraries for data analysis and manipulation. In this article, we explore four Python functions that address different aspects of data processing. We start by converting Excel column names to corresponding column numbers, evaluate a classification model using accuracy, precision, and recall metrics, and conclude by counting words of a specific length in a sentence. Throughout the process, I gained insights into fundamental concepts of Functions and Methods.</p>
           </div>
 
           <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Problem 1: Swapping Highest and Lowest Temperatures</h3>
-            <p>To start, we are given a list of average daily temperatures over a week and asked to swap the highest and lowest temperatures in the list. By utilizing Python's built-in functions, we find the maximum and minimum temperatures, along with their respective indices. With this information, we perform the swap operation and print the updated list.</p>
+            <h3 class="blog-subheading">Problem 1: Excel Column Name to Column Number Conversion</h3>
+            <p>We begin with a function that converts an Excel column name (e.g., 'A', 'BD', 'AAA') to its corresponding column number. The function utilizes a dictionary and list comprehension to perform the conversion. By iterating through the characters in the column name from right to left and multiplying by ascending powers of 26, the function computes the column number. This example showcases Python's ability to handle mathematical operations and dictionary mapping efficiently.</p>
           </div>
 
           <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Problem 2: Calculating Mean and Median</h3>
-            <p>Next, we explore measures of averages using a list of product prices. We calculate the mean by dividing the sum of the prices by the number of elements in the list. Then, we sort the list to find the median. Depending on whether the number of elements is odd or even, we determine the middle element(s) and compute the median accordingly. Finally, we compare the mean and median to determine which is greater.</p>
+            <h3 class="blog-subheading">Problem 2: Classification Model Evaluation Metrics</h3>
+            <p>Next, we tackle the evaluation of a classification model using accuracy, precision, and recall metrics. Given two lists of actual and predicted labels, we calculate the accuracy by comparing the number of correctly predicted labels to the total number of labels. To calculate precision and recall, we focus on a specific label (e.g., 'Cat' or 'Dog') and count the correctly predicted instances of that label divided by the predicted or actual counts, respectively. This example demonstrates how Python can be used to evaluate the performance of a classification model using various metrics.</p>
           </div>
 
           <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading text-justify">Problem 3: Unnesting a Nested List</h3>
-            <p>In this problem, we encounter a list of technology companies. However, the last three companies are nested within a sub-list. To eliminate the nesting, we use the pop() method to remove the sub-list and store it separately. Then, we concatenate the original list with the extracted sub-list to obtain the desired result. Alternatively, we can use the remove() and extend() methods to achieve the same outcome.</p>
+            <h3 class="blog-subheading text-justify">Problem 3: Precision and Recall Calculation for a Given Label</h3>
+            <p>Building on the previous problem, we create a function that calculates precision and recall for a specific input label. By counting the predicted and actual occurrences of the label in the lists, we calculate the number of correctly predicted labels. Dividing this count by the predicted or actual counts yields precision and recall, respectively. This example showcases Python's ability to create reusable functions and perform calculations based on user-defined inputs.</p>
+          </div>
+
+          <hr class="blog-separator">
+          <div class="text-justify">
+            <h3 class="blog-subheading text-justify">Problem 4: Word Count for a Given Length in a Sentence</h3>
+            <p>Lastly, we present a function that counts the occurrences of words with a specified length in a sentence. By splitting the sentence into a list of words and using list comprehension, we filter words based on their length. The function returns both the count and the list of words meeting the length criterion. This example demonstrates how Python can efficiently handle string manipulation, filtering, and list comprehension.</p>
           </div>
 
           <hr class="blog-separator">
           <div class="text-justify">
             <h3 class="blog-subheading">Conclusion:</h3>
-            <p>This article presented Python code snippets for various data manipulation tasks. We learned how to swap values in a list by finding the maximum and minimum elements and their respective indices. We also explored the calculation of mean and median for a dataset, showcasing Python's ability to handle mathematical operations efficiently. Lastly, we examined how to unnest a nested list by extracting the sub-list and merging it with the original list. These examples demonstrate the versatility and power of Python in handling and manipulating data effectively.</p>
+            <p>In this article, we explored four Python functions that address different data analysis challenges. From converting Excel column names to numbers and evaluating classification models to calculating precision, recall, and word counts, these functions highlight the versatility and power of Python in data processing tasks. Python's concise syntax, extensive libraries, and flexibility in handling diverse data types make it a valuable tool for data scientists and analysts. By leveraging Python's functionalities, users can efficiently manipulate, analyze, and derive insights from their data.</p>
           </div>
 
-          <script src="https://gist.github.com/soopertramp/dac9f873399ec077dbe7df4686791c82.js"></script>
+          <script src="https://gist.github.com/soopertramp/39479e1a051802d07037bf407acf5389.js"></script>
           
           <br>
            <div class="blog-navigation d-flex justify-content-between">
-            <a href="../1. basic_python/strings.html" class="btn btn-primary btn-previous">Previous</a>
-            <a href="../1. basic_python/tuple.html" class="btn btn-primary btn-next">Next</a>
+            <a href="../1. basic_python/list_comp.html" class="btn btn-primary btn-previous">Previous</a>
+            <a href="../2. advanced_python/numpy.html" class="btn btn-primary btn-next">Next</a>
           </div> 
 
         </article>
@@ -230,4 +236,4 @@
     <script src="../../../js/main.js"></script>
 </body>
 
-</html>    
+</html>

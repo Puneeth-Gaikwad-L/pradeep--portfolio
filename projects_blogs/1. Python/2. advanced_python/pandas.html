@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Basic Python</title>
+    <title>Advanced Python</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="keywords">
     <meta content="" name="description">
-    <meta property="og:image" content="https://imgur.com/5XOmrWw.png">
+    <meta property="og:image" content="https://imgur.com/fUsDIrg.jpg">
 
     <!-- Favicon -->
     <link href="../../../img/favicon.ico" rel="icon">
@@ -47,7 +47,7 @@
         <div class="position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0">Basic Python</h1>
+                    <h1 class="m-0">Advanced Python</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -77,7 +77,7 @@
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-12 text-center">
-                            <h1 class="text-white animated slideInDown">List</h1>
+                            <h1 class="text-white animated slideInDown">Pandas</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
@@ -99,50 +99,43 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <article>
-          <h2 class="blog-heading text-center">Data Manipulation: Swapping Values, Calculating Averages, and Unnesting Lists</h2><br>
-          <p class="blog-meta">Published on <span class="blog-date">July 8, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
+          <h2 class="blog-heading text-center">Extracting Domain Names and Ending Strings from URLs using Python and Pandas</h2><br>
+          <p class="blog-meta">Published on <span class="blog-date">July 9, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
           <p class="blog-tags">Tags: <a href="second" class="tag">Python</a>, <a href="#" class="tag">Programming</a></p>
           <hr class="blog-separator">
           <div class="text-center">
-            <img src="../../../projects_blogs/1. Python/1. basic_python/3.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
+            <img src="../../../projects_blogs/1. Python/2. advanced_python/2.jpg" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
           </div><br>
 
           <hr class="blog-separator">
           <div class="text-justify">
             <h3 class="blog-subheading">Introduction:</h3>
-            <p>In this article, we will explore various Python code snippets that focus on data manipulation tasks. We will cover topics such as swapping values in a list, calculating the mean and median of a dataset, and unnesting nested lists. These examples will demonstrate how Python provides powerful functionality to handle data efficiently. Throughout the process, I gained insights into fundamental concepts of Lists.</p>
+            <p>In this article, we will explore how to extract domain names and ending strings from a list of URLs using Python and the Pandas library. Extracting these components from URLs can be useful for various tasks, such as analyzing website data or organizing URLs based on their domains and endings. We will walk through the process step-by-step, covering string manipulation techniques and creating a Pandas DataFrame to store the extracted information. Throughout the process, I gained insights into fundamental concepts of Pandas.</p>
           </div>
 
           <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Problem 1: Swapping Highest and Lowest Temperatures</h3>
-            <p>To start, we are given a list of average daily temperatures over a week and asked to swap the highest and lowest temperatures in the list. By utilizing Python's built-in functions, we find the maximum and minimum temperatures, along with their respective indices. With this information, we perform the swap operation and print the updated list.</p>
+            <h3 class="blog-subheading">Problem Description:</h3>
+            <p>Given a list of URLs, we need to extract the domain names and ending strings from each URL. The domain name refers to the main part of a URL that identifies a specific website, while the ending string represents the file extension or the last part of the URL.</p>
           </div>
 
-          <hr class="blog-separator">
           <div class="text-justify">
-            <h3 class="blog-subheading">Problem 2: Calculating Mean and Median</h3>
-            <p>Next, we explore measures of averages using a list of product prices. We calculate the mean by dividing the sum of the prices by the number of elements in the list. Then, we sort the list to find the median. Depending on whether the number of elements is odd or even, we determine the middle element(s) and compute the median accordingly. Finally, we compare the mean and median to determine which is greater.</p>
+            <h5 class="blog-subheading">Solution:</h5>
+            <p>We start by initializing a list of URLs. Each URL is then processed individually to extract the domain name and ending string. We use Python's string split() method to split the URL into different components. The domain name is obtained by splitting the URL using the "//" delimiter and extracting the relevant portion. The ending string is extracted by splitting the URL based on "/" and then extracting the last part using various split operations.</p>
+            <p>Once we have extracted the domain names and ending strings, we create two separate lists to store this information. We iterate over each URL in the list and append the extracted domain name and ending string to their respective lists. We can then use these lists to create a Pandas DataFrame using the zip() function. The zip() function combines the two lists element-wise into tuples, which can be directly passed to the DataFrame constructor. Finally, we specify the column names and display the resulting DataFrame.</p>
           </div>
 
-          <hr class="blog-separator">
-          <div class="text-justify">
-            <h3 class="blog-subheading text-justify">Problem 3: Unnesting a Nested List</h3>
-            <p>In this problem, we encounter a list of technology companies. However, the last three companies are nested within a sub-list. To eliminate the nesting, we use the pop() method to remove the sub-list and store it separately. Then, we concatenate the original list with the extracted sub-list to obtain the desired result. Alternatively, we can use the remove() and extend() methods to achieve the same outcome.</p>
-          </div>
-
-          <hr class="blog-separator">
           <div class="text-justify">
             <h3 class="blog-subheading">Conclusion:</h3>
-            <p>This article presented Python code snippets for various data manipulation tasks. We learned how to swap values in a list by finding the maximum and minimum elements and their respective indices. We also explored the calculation of mean and median for a dataset, showcasing Python's ability to handle mathematical operations efficiently. Lastly, we examined how to unnest a nested list by extracting the sub-list and merging it with the original list. These examples demonstrate the versatility and power of Python in handling and manipulating data effectively.</p>
+            <p>Extracting domain names and ending strings from URLs can be accomplished using string manipulation techniques in Python. By splitting the URLs and extracting the desired components, we can create structured data for further analysis or organization. The Pandas library provides powerful tools for working with tabular data, allowing us to create a DataFrame to store the extracted information conveniently. Understanding how to extract and process components from URLs is a valuable skill for various data analysis and web-related tasks.</p>
           </div>
 
-          <script src="https://gist.github.com/soopertramp/dac9f873399ec077dbe7df4686791c82.js"></script>
+          <script src="https://gist.github.com/soopertramp/5880a111057bebc097c8e64643e941cf.js"></script>
           
           <br>
            <div class="blog-navigation d-flex justify-content-between">
-            <a href="../1. basic_python/strings.html" class="btn btn-primary btn-previous">Previous</a>
-            <a href="../1. basic_python/tuple.html" class="btn btn-primary btn-next">Next</a>
+            <a href="../2. advanced_python/numpy.html" class="btn btn-primary btn-previous">Previous</a>
+            <a href="../2. advanced_python/data_wrangling.html" class="btn btn-primary btn-next">Next</a>
           </div> 
 
         </article>
@@ -230,4 +223,4 @@
     <script src="../../../js/main.js"></script>
 </body>
 
-</html>    
+</html>
