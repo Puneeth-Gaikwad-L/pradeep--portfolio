@@ -554,7 +554,6 @@ color: #6c757d;
 }
 
 .container,
-.container-fluid,
 .container-sm,
 .container-md,
 .container-lg,
@@ -12236,6 +12235,21 @@ fieldset:disabled .btn {
       .small-font {
         font-size: 5px; /* Adjust the font size as per your preference */
     }
+
+    .full-page-about {
+      height: 100vh; /* Set the height of the section to fill the viewport */
+    }
+
+    .code-highlight {
+      color: blue !important; /* Change to the desired color */
+    }
     
+    .code-highlight-2 {
+      color: green !important; /* Change to the desired color */
+    }
+    
+    .code-highlight-3 {
+      color: red !important; /* Change to the desired color */
+    }
     
     }
