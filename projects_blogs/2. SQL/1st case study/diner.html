@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Case Study - 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta property="og:image" content="https://imgur.com/5XOmrWw.png">
+
+    <!-- Favicon -->
+    <link href="../../../img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../../../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../../../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../../../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0">SQL Case Study</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <div class="navbar-nav mx-auto py-0">
+                      <a href="../../../index.html" class="nav-item nav-link">Home</a>
+                      <a href="../../../projects.html" class="nav-item nav-link active">Projects</a>
+                      <a href="../../../blogs.html" class="nav-item nav-link">Blogs</a>
+                      <a href="../../../services.html" class="nav-item nav-link">Services</a>
+                      <a href="../../../about.html" class="nav-item nav-link">About</a>
+                      <a href="../../../contact.html" class="nav-item nav-link">Contact</a>
+                      <div class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                          <div class="dropdown-menu m-0">
+                              <a href="../../../testimonials.html" class="dropdown-item">Testimonials</a>
+                              <a href="../../../404.html" class="dropdown-item">404 Page</a>
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+            </nav>
+
+            <div class="py-5 bg-primary hero-header">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <div class="col-12 text-center">
+                            <h1 class="text-white animated slideInDown">Case Study 1 - Danny's Diner</h1>
+                            <hr class="bg-white mx-auto mt-0" style="width: 90px;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a class="text-white" href="../../../index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="../../../projects.html">Projects</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="../../../about.html">About</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+<!-- Content Start -->
+<div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <article>
+          <h2 class="blog-heading text-center">Analyzing Customer Patterns and Preferences at Danny's Diner</h2>
+          <h5 class="blog-heading text-center">A Data-driven Approach to Enhancing Customer Experience and Loyalty Program</h5><br>
+          <p class="blog-meta">Published on <span class="blog-date">July 10, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
+          <p class="blog-tags">Tags: <a href="second" class="tag">SQL</a>, <a href="#" class="tag">Data Analysis</a></p>
+          <hr class="blog-separator">
+          <div class="text-center">
+            <img src="../../../projects_blogs/2. SQL/1st case study/1.1.png" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
+          </div><br>
+
+          <hr class="blog-separator">
+          <div class="text-justify">
+            <h3 class="blog-subheading">Introduction:</h3>
+            <p>Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.</p>
+            <p>Danny’s Diner is in need of your assistance to help the restaurant stay afloat - the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.</p>
+          </div>
+
+          <div class="text-justify">
+            <h3 class="blog-subheading">Problem Statement</h3>
+            <p>Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.</p>
+            <p>He plans on using these insights to help him decide whether he should expand the existing customer loyalty program - additionally he needs help to generate some basic datasets so his team can easily inspect the data without needing to use SQL.</p>
+            <p>Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!</p>
+            <h4>Danny has shared with me 3 key datasets for this case study:</h4>
+            <ul>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">sales</code></li>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">menu</code></li>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">members</code></li>
+              </ul>
+          </div>
+
+          <p>You can inspect the entity relationship diagram and example data below.</p>
+
+          <h4 id="entity-relationship-diagram">Entity Relationship Diagram</h4>
+
+          <iframe src="https://dbdiagram.io/embed/608d07e4b29a09603d12edbd" width="750" height="500"></iframe>
+
+          <div class="text-justify">
+            <h3 class="blog-subheading">Example Datasets</h3>
+            <p>All datasets exist within the dannys_diner database schema</p>
+            <h5>Table 1 : Sales</h5>
+            <p>The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.</p>
+            <style>
+                table {
+                  width: 100%;
+                  height: 300px;
+                }
+            </style>
+            <table>
+                <thead>
+                  <tr>
+                    <th>customer_id</th>
+                    <th>order_date</th>
+                    <th>product_id</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-01</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-01</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-07</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-10</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-11</td>
+                    <td>3</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            <h5>Table 2: menu</h5>
+            <p>The menu table maps the product_id to the actual product_name and price of each menu item.</p>
+            <table>
+                <thead>
+                  <tr>
+                    <th>product_id</th>
+                    <th>product_name</th>
+                    <th>price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>sushi</td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>curry</td>
+                    <td>15</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>ramen</td>
+                    <td>12</td>
+                  </tr>
+                </tbody>
+            </table>
+            
+            <h5>Table 3: members</h5>
+            <p>The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.</p>
+            <table>
+                <thead>
+                  <tr>
+                    <th>customer_id</th>
+                    <th>join_date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-07</td>
+                  </tr>
+                  <tr>
+                    <td>B</td>
+                    <td>2021-01-09</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+
+          <div class="text-justify">
+            <h3 class="blog-subheading text-justify">Case Study Questions</h3><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">1. What is the total amount each customer spent at the restaurant?</h4><br>
+            <script src="https://gist.github.com/soopertramp/d01ecec88cdec836e0f5cd3870ea8169.js"></script><br>
+            <p>The total amount spent by each customer at the restaurant is as follows:</p>
+            <ul>
+                <li>Customer A spent a total of $76 at the restaurant.</li>
+                <li>Customer B spent a total of $74 at the restaurant.</li>
+                <li>Customer C spent a total of $36 at the restaurant.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Customer segmentation:</h5> Knowing the total spending of each customer allows the restaurant to segment its customer base based on their spending habits. This information can help identify high-value customers who contribute significantly to the restaurant's revenue. The restaurant can then tailor specific marketing campaigns or loyalty programs to retain and attract such customers.</p>
+                <p><h5>Menu optimization:</h5> By analyzing the spending patterns of customers, the restaurant can gain insights into which menu items are most popular and generate higher revenue. This information can be used to optimize the menu, ensuring that the most profitable and in-demand dishes are prioritized while considering the profitability of individual items.</p>
+                <p><h5>Upselling and cross-selling opportunities:</h5> Understanding the total spending of each customer enables the restaurant staff to identify opportunities for upselling and cross-selling.</p> 
+                        <p>For example, if a customer consistently spends a certain amount on their visits, the staff can recommend additional menu items or suggest higher-priced options to increase the average transaction value.</p>
+                <p><h5>Personalized marketing and promotions:</h5> By analyzing individual customer spending, the restaurant can create personalized marketing campaigns and promotions.</p> 
+                        <p>For example, customers who spend more can be offered exclusive discounts or rewards to encourage repeat visits. On the other hand, customers who spend less can be targeted with promotions to entice them to spend more.</p>
+                <p><h5>Customer satisfaction and loyalty:</h5> The total spending of each customer can be an indicator of their satisfaction level with the restaurant's offerings. By monitoring and analyzing this data, the restaurant can identify customers who may be at risk of churning or decreasing their spending. Proactive measures can then be taken to address any issues and improve customer satisfaction, thereby fostering loyalty and retaining valuable customers.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>The knowledge of the total amount each customer spent at the restaurant is crucial for gaining insights into customer spending behavior, identifying high-value customers, evaluating marketing efforts, and providing personalized experiences. It helps the restaurant make data-driven decisions to enhance customer satisfaction, drive revenue growth, and build long-term relationships with its clientele.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">2. How many days has each customer visited the restaurant?</h4><br>
+            <script src="https://gist.github.com/soopertramp/4731432e6797eb8c53b14ce4a123f581.js"></script><br>
+            <p>The number of times each customer visited the restaurant is as follows:</p>
+            <ul>
+                <li>Customer A visited the restaurant 4 times.</li>
+                <li>Customer B visited the restaurant 6 times.</li>
+                <li>Customer C visited the restaurant 2 times.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Customer segmentation:</h5> The information allows the business to segment customers based on their visit frequency. This segmentation helps identify loyal customers who visit frequently and can be targeted with special offers or loyalty programs to enhance their satisfaction and encourage repeat visits.</p>
+                <p><h5>Resource allocation:</h5> Knowing the number of visits per customer helps with resource allocation and staffing decisions. It allows the business to anticipate busy periods and allocate staff accordingly to provide excellent service during peak times when frequent customers are likely to visit.</p>
+                <p><h5>Customer retention: </h5> Monitoring the visit frequency helps in identifying customers who may be at risk of churning or decreasing their visits. The business can proactively reach out to these customers, understand their concerns, and take measures to improve their experience, ultimately fostering customer loyalty and retention.</p>
+                <p><h5>Marketing strategies: </h5> The visit frequency data can guide marketing strategies and promotional campaigns. Customers who visit less frequently can be targeted with personalized offers or incentives to encourage them to visit more often. In contrast, frequent customers can be rewarded for their loyalty, driving customer satisfaction and fostering a positive brand image.</p> 
+                <p><h5>Menu and service optimization:</h5> By analyzing visit frequency, the business can gain insights into customer preferences and adjust the menu or service offerings accordingly. It allows for menu optimization, highlighting popular dishes and removing less popular ones to better cater to customer preferences and increase overall satisfaction.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>This information helps understand customer engagement and loyalty, allowing for tailored marketing strategies and improved resource management. It aids in evaluating the effectiveness of efforts to attract repeat visits and measure customer retention. Overall, it contributes to enhancing the dining experience and optimizing restaurant operations.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">3. What was the first item from the menu purchased by each customer?</h4><br>
+            <script src="https://gist.github.com/soopertramp/675fee6dc6f2c44b880105364294c772.js"></script><br>
+            <p>The first orders of each customer are as follows:</p>
+            <ul>
+                <li>Customer A's first orders are curry and sushi.</li>
+                <li>Customer B's first order is curry.</li>
+                <li>Customer C's first order is ramen.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Understanding customer preferences:</h5> By identifying the first orders of each customer, the restaurant can gain insights into their initial preferences. This information helps understand the types of dishes or specific menu items that attract customers during their first visit. It can be useful in tailoring marketing messages or promotions to highlight similar dishes and attract new customers.</p>
+                <p><h5>Menu optimization:</h5> Analyzing the first orders of customers allows the restaurant to assess the popularity of different menu items. By identifying which dishes are frequently chosen as the first order, the restaurant can ensure that these items are well-prepared, prominently displayed on the menu, and given appropriate emphasis in marketing materials. It helps optimize the menu to showcase items that have a high likelihood of creating a positive first impression on customers.</p>
+                <p><h5>Personalized recommendations:</h5> Knowing the first orders of each customer provides an opportunity to offer personalized recommendations for future visits. The restaurant can use this information to suggest complementary dishes or similar items that align with the customer's initial preferences. Personalized recommendations enhance the customer experience, encourage exploration of the menu, and increase the likelihood of repeat visits.</p>
+                <p><h5>Upselling and cross-selling opportunities:</h5> Understanding the first orders of customers can also help identify upselling and cross-selling opportunities. By analyzing the specific dishes chosen during the first visit, the restaurant can recommend additional items that pair well with those choices or suggest higher-priced options that align with the customer's initial preferences. This approach can increase the average transaction value and overall revenue.</p>
+                <p><h5>Customer retention and loyalty: </h5> The first order of a customer sets the tone for their dining experience and can greatly impact their decision to return. By monitoring and analyzing this data, the restaurant can identify any patterns or trends that influence customer retention. It allows for proactive measures to be taken to ensure customer satisfaction, address any issues, and encourage repeat visits, thus fostering customer loyalty.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Knowing the first orders of customers can help in understanding their initial preferences, optimizing the menu, providing personalized recommendations, identifying upselling opportunities, and fostering customer retention and loyalty. It allows the restaurant to create a positive first impression, tailor the dining experience, and increase the chances of long-term customer engagement.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">4. What is the most purchased item on the menu and how many times was it purchased by all customers?</h4><br>
+            <script src="https://gist.github.com/soopertramp/1ab1666e2a2b95563708e584097d2829.js"></script><br>
+            <p>The most purchased item on the menu is ramen, with a total of 8 purchases.</p>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Inventory and supply management:</h5> Knowing the most popular menu item allows the business to streamline its inventory and supply management processes. It ensures that an adequate stock of ingredients or products related to the popular item is maintained, minimizing the risk of running out of stock and maximizing customer satisfaction.</p>
+                <p><h5>Menu optimization:</h5> Understanding the most purchased item helps optimize the menu. The business can highlight or promote the popular item more prominently, potentially increasing its sales even further. It also provides insights into customer preferences, allowing for adjustments to the menu offerings to align with customer demand.</p>
+                <p><h5>Profitability and cost management:</h5> The most purchased item often generates significant revenue for the business. By identifying it, the business can assess its profitability and adjust pricing or portion sizes accordingly. It helps in maximizing profitability while ensuring competitive pricing and managing costs associated with the popular item.</p>
+                <p><h5>Marketing and promotions: </h5> The most purchased item can be used as a focal point in marketing campaigns and promotions. Highlighting the popular item in advertisements or offering special deals related to it can attract new customers and incentivize existing customers to make repeat purchases. It serves as a key marketing asset to drive customer engagement and increase sales.</p>
+                <p><h5>Menu diversification and innovation:</h5> While the most purchased item is essential, it also provides an opportunity to explore menu diversification and innovation. By understanding customer preferences, the business can introduce new variations or complementary dishes to enhance the overall dining experience and cater to a wider range of tastes. This helps in staying competitive, attracting new customers, and encouraging repeat visits.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Identifying the most purchased item on the menu is beneficial for the business in multiple ways. It helps streamline inventory management, optimize the menu, maximize profitability, and guide marketing efforts. It also enables menu diversification and innovation to cater to customer preferences and drive business growth.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">5. Which item was the most popular for each customer?</h4><br>
+            <script src="https://gist.github.com/soopertramp/a5f4ddd2afe506ac61b060fc5708e891.js"></script><br>
+            <p>The first orders of each customer are as follows:</p>
+            <ul>
+                <li>Customer A and C’s favourite item is ramen.</li>
+                <li>Customer B enjoys all items on the menu.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Customer satisfaction: </h5> By identifying each customer's favorite item, the business can ensure customer satisfaction and enhance their dining experience. The ability to cater to individual preferences increases the likelihood of repeat visits and positive word-of-mouth recommendations.</p>
+                <p><h5>Menu optimization:</h5> Understanding the popularity of specific items among customers helps the business optimize its menu offerings. It provides insights into the demand for different dishes, allowing for adjustments to highlight customer favorites and potentially introducing variations or new dishes based on their preferences.</p>
+                <p><h5>Personalized marketing and promotions:</h5> Knowing each customer's favorite item enables the business to create personalized marketing campaigns and promotions. Targeted offers, discounts, or special menus featuring their preferred items can be tailored to attract and retain customers.</p>
+                <p><h5>Customer loyalty and retention:</h5> By recognizing and catering to individual preferences, the business can build customer loyalty. Offering their favorite item consistently enhances their connection with the brand, increasing the chances of customer retention and positive reviews.</p>
+                <p><h5>Insights for future menu planning:</h5> Identifying a customer who enjoys all items on the menu, like Customer B, can provide valuable insights for future menu planning and development. It indicates a versatile and adventurous palate, which can inform decisions regarding new menu additions or seasonal offerings.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Identifying each customer's favorite item helps enhance customer satisfaction, optimize the menu, personalize marketing efforts, foster loyalty, and gain insights for future menu planning. It tailors the dining experience, promotes customer retention, and enables the business to cater to individual preferences effectively.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">6. Which item was purchased first by the customer after they became a member?</h4><br>
+            <script src="https://gist.github.com/soopertramp/d005aaabd405d1c5cfb67d4827a69c3e.js"></script><br>
+            <p>The first orders of each customer after becoming meber are as follows:</p>
+            <ul>
+                <li>Customer A’s first order as a member is ramen.</li>
+                <li>Customer B’s first order as a member is sushi.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Membership engagement: </h5> By knowing the first order made by each customer after becoming a member, the business can assess the level of engagement and the initial preferences of new members. This knowledge can help tailor personalized communication and offers to further engage and retain these customers.</p>
+                <p><h5>Member satisfaction:</h5> Understanding the first order can provide an indication of member satisfaction. If the first order aligns with popular or highly-rated menu items, it suggests that the members are enjoying their dining experience. This knowledge can guide the business in maintaining the quality of the menu items that attract new members.</p>
+                <p><h5>Menu optimization:</h5> Analyzing the first orders can assist in menu optimization efforts. If certain menu items consistently appear as first orders for members, it indicates their popularity and potential for increased sales. The business can emphasize these items on the menu, feature them in promotions, or consider introducing variations or complementary dishes to further capitalize on their popularity.</p>
+                <p><h5>Personalized member experiences: </h5> The knowledge of the first order enables the business to provide personalized member experiences. It can help in tailoring recommendations, offers, or exclusive benefits based on the initial preferences of the members. This personalization strengthens member loyalty and increases the likelihood of repeat visits.</p>
+                <p><h5>Insights for new member acquisition: </h5> Understanding the first order preferences of members can provide insights for targeting new member acquisition. By identifying popular menu items among new members, the business can highlight these items in marketing campaigns or member acquisition strategies, attracting customers who have a high likelihood of becoming loyal members.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Analyzing the first orders of members helps the business understand member preferences, tailor personalized experiences, optimize the menu, and enhance member engagement. It provides insights for targeted marketing, improves member satisfaction, and drives business growth.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">7. Which item was purchased just before the customer became a member?</h4><br>
+            <script src="https://gist.github.com/soopertramp/73f1712c51de4b881ad2ff68d237e319.js"></script><br>
+            <ul>
+                <li>Both customers’ last order before becoming members are sushi.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Customer insights: </h5> Understanding the last orders before membership provides insights into the preferences of customers during their transition to membership. It helps the business understand the types of dishes or specific menu items that attract potential members and can guide efforts to appeal to similar tastes.</p>
+                <p><h5>Membership benefits:</h5>  By knowing the last orders, the business can align membership benefits with customer preferences. For example, if sushi was the popular choice, the business can offer exclusive discounts or promotions on sushi-related items to entice new members and strengthen their initial membership experience.</p>
+                <p><h5>Menu optimization:</h5> Analyzing the last orders helps optimize the menu by identifying popular items before customers became members. It allows the business to highlight or promote these items more prominently, ensuring their continued availability and quality. It also helps guide menu expansion or variation to cater to customer preferences.</p>
+                <p><h5>Member retention:</h5> Recognizing the last orders made by customers before becoming members helps in member retention efforts. By continuing to offer their preferred items, the business can ensure a seamless transition to membership and maintain customer satisfaction. It increases the likelihood of repeat visits and long-term loyalty.</p>
+                <p><h5>Marketing strategies: </h5> The knowledge of customers' last orders can inform marketing strategies aimed at acquiring new members. By emphasizing similar menu items or offering promotions related to their previous orders, the business can attract potential members who have already shown interest in those items.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>The understanding the last orders before membership provides valuable insights for customer preferences, membership benefits, menu optimization, member retention, and targeted marketing strategies. It helps the business create appealing membership experiences, optimize the menu offerings, and attract new members effectively.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">8. What is the total items and amount spent for each member before they became a member?</h4><br>
+            <script src="https://gist.github.com/soopertramp/bfd8172e15dd931bae32dcdd999e9dea.js"></script><br>
+            <p>Before becoming members</p>
+            <ul>
+                <li>Customer A spent $25 on 2 items.</li>
+                <li>Customer B spent $40 on 3 items.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Member benefits and promotions: </h5>By knowing the customers' pre-membership purchase history, the business can tailor member benefits and promotions to align with their previous spending patterns. This personalized approach enhances the value proposition of membership and encourages customers to join based on their prior investment in the business.</p>
+                <p><h5>Membership pricing and incentives: </h5>Analyzing the total sales and items purchased can guide the pricing and incentive structure for membership programs. It helps determine the level of discounts, rewards, or exclusive offers that would be enticing for customers who have already demonstrated a certain level of spending before becoming members.</p>
+                <p><h5>Member segmentation: </h5>The data allows for customer segmentation based on pre-membership spending. Customers who have made higher-value purchases or bought a greater number of items can be identified as potentially higher-value members. This segmentation can guide personalized marketing efforts and enable targeted strategies to maximize their satisfaction and loyalty.</p>
+                <p><h5>Membership ROI evaluation:</h5>Comparing the total sales and items purchased before and after customers became members helps evaluate the return on investment (ROI) of the membership program. It provides insights into the impact of membership on customer spending and allows the business to assess the effectiveness of the program in driving increased sales and customer engagement.</p>
+                <p><h5>Customer retention and loyalty: </h5>Understanding pre-membership spending helps in retaining and fostering loyalty among customers who have already invested in the business. By recognizing their prior purchases and providing tailored experiences, the business can strengthen the relationship with these customers, encourage repeat visits, and increase the likelihood of long-term loyalty.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Understanding the pre-membership spending of customers helps in tailoring member benefits, pricing, and incentives. It enables segmentation, evaluates membership ROI, and enhances customer retention strategies. By leveraging this data, businesses can personalize member experiences and maximize customer engagement and loyalty.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?</h4><br>
+            <script src="https://gist.github.com/soopertramp/8725710691aef084d4c2a139f6cc6e89.js"></script><br>
+            <p>The total points for Customers A, B and C are $860, $940 and $360.</p>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Customer loyalty and rewards:</h5>The total points accumulated by customers serve as a measure of their loyalty and engagement with the business. It provides a basis for implementing rewards programs or loyalty tiers based on point thresholds. Offering incentives or exclusive benefits based on points encourages repeat purchases and strengthens customer loyalty.</p>
+                <p><h5>Personalized marketing and promotions:</h5>Knowing the total points for each customer allows for personalized marketing and promotions. Customers with higher point balances can be targeted with exclusive offers or discounts to incentivize them to redeem their points and make additional purchases. This tailored approach enhances the customer experience and fosters ongoing engagement.</p>
+                <p><h5>Customer segmentation: </h5>The total points can be used as a basis for customer segmentation. Customers with higher point balances can be identified as high-value or VIP customers. This segmentation enables targeted marketing efforts, priority access to new offerings, or personalized communications to further nurture these valuable customer relationships.</p>
+                <p><h5>Data-driven decision making:</h5>Analyzing the total points provides valuable insights into customer behavior and preferences. It helps in understanding which products contribute to higher point accumulations, which can inform inventory management, pricing strategies, and product promotion decisions. This data-driven approach ensures that resources are allocated to maximize customer satisfaction and drive sales.</p>
+                <p><h5>Performance evaluation:</h5>The total points can be used to evaluate the effectiveness of loyalty and rewards programs. By comparing point balances over time, the business can assess program engagement, redemption rates, and overall customer satisfaction. This evaluation enables adjustments and improvements to the loyalty program to better align with customer expectations.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Understanding the total points earned by customers based on their purchases helps drive customer loyalty, enables personalized marketing, informs customer segmentation, supports data-driven decision making, and facilitates program evaluation. It enhances customer engagement, encourages repeat purchases, and fosters long-term loyalty.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?</h4><br>
+            <script src="https://gist.github.com/soopertramp/578bb297722346966e3fe547772dbfff.js"></script><br>
+            <ul>
+                <li>Customer A has 1,370 points.</li>
+                <li>Customer B has 820 points.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Rewards and loyalty programs:</h5>The points earned by customers provide a basis for implementing rewards and loyalty programs. Customers can be incentivized to accumulate more points and redeem them for special offers, discounts, or exclusive perks. This encourages repeat purchases and fosters customer loyalty.</p>
+                <p><h5>Personalized marketing and promotions:</h5>Knowing the points earned by customers allows for personalized marketing and promotions. Customers with higher point balances can be targeted with tailored offers or rewards that align with their preferences and purchasing behavior. This customized approach enhances customer engagement and increases the likelihood of continued patronage.</p>
+                <p><h5>Member retention and satisfaction:</h5>Understanding the points earned by customers who are members helps in member retention efforts. By recognizing their point accumulation and providing targeted benefits or incentives, the business can strengthen the relationship with these customers and increase their satisfaction. This contributes to higher member retention rates and enhances the overall membership experience.</p>
+                <p><h5>Data-driven decision making:</h5>Analyzing the points earned provides valuable insights into customer behavior and preferences. It helps identify popular menu items or promotions that generate higher point accumulation. This information can guide inventory management, pricing strategies, and promotional decisions to optimize customer satisfaction and drive sales.</p>
+                <p><h5>Program evaluation and improvement:</h5>Tracking the points earned allows for the evaluation of the effectiveness of rewards and loyalty programs. By analyzing point balances and redemption rates, the business can assess program engagement and customer satisfaction. This evaluation enables the identification of areas for improvement and adjustments to maximize program effectiveness and customer engagement.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Understanding customer points earned based on purchases and membership helps drive loyalty, personalize marketing, retain members, make data-driven decisions, and evaluate program effectiveness. It enhances engagement, fosters satisfaction, and drives business growth through targeted benefits and improved customer experiences.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">11. creating basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.</h4><br>
+            <p>Recreate the following table output using the available data:</p>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Customer ID</th>
+                    <th>Order Date</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Member</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-01</td>
+                    <td>curry</td>
+                    <td>15</td>
+                    <td>N</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-01</td>
+                    <td>sushi</td>
+                    <td>10</td>
+                    <td>N</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-07</td>
+                    <td>curry</td>
+                    <td>15</td>
+                    <td>Y</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-10</td>
+                    <td>ramen</td>
+                    <td>12</td>
+                    <td>Y</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-11</td>
+                    <td>ramen</td>
+                    <td>12</td>
+                    <td>Y</td>
+                  </tr>
+                </tbody>
+              </table><br>
+            <script src="https://gist.github.com/soopertramp/2ef77543fd69e2eb0f2d71bea50f77ce.js"></script><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">12. Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.</h4><br>
+            <p>Recreate the following table output using the available data:</p>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Customer ID</th>
+                    <th>Order Date</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Member</th>
+                    <th>Ranking</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-01</td>
+                    <td>curry</td>
+                    <td>15</td>
+                    <td>N</td>
+                    <td>null</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-01</td>
+                    <td>sushi</td>
+                    <td>10</td>
+                    <td>N</td>
+                    <td>null</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-07</td>
+                    <td>curry</td>
+                    <td>15</td>
+                    <td>Y</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-10</td>
+                    <td>ramen</td>
+                    <td>12</td>
+                    <td>Y</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-11</td>
+                    <td>ramen</td>
+                    <td>12</td>
+                    <td>Y</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>2021-01-11</td>
+                    <td>ramen</td>
+                    <td>12</td>
+                    <td>Y</td>
+                    <td>3</td>
+                  </tr>
+                </tbody>
+              </table><br>
+            <script src="https://gist.github.com/soopertramp/db7bdb277588993246cb1417e17014fe.js"></script><br>
+            <p>Creating basic data tables that provide insights without the need to join underlying tables using SQL can greatly help Danny and his team in the following ways:</p>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Easy data access:</h5>The data tables provide a consolidated view of the relevant information, making it easier and quicker for Danny and his team to access the insights they need. Instead of writing complex SQL queries every time, they can directly refer to the pre-built tables.</p>
+                <p><h5>Streamlined analysis:</h5>By having the necessary data already organized in tables, Danny and his team can perform analysis and derive insights more efficiently. They can apply filters, sorting, grouping, and other operations directly on the tables, saving time and effort.</p>
+                <p><h5>Quick decision-making: </h5>The availability of pre-built data tables allows for faster decision-making. Danny and his team can access the required information promptly, enabling them to make informed decisions and take actions promptly without the need for extensive SQL queries or data manipulations.</p>
+                <p><h5>Improved productivity:</h5>With pre-built data tables, Danny and his team can focus on analyzing the data and extracting insights rather than spending time writing complex SQL queries or joining tables. This improves overall productivity and efficiency in generating insights and executing data-driven tasks.</p>
+                <p><h5>Reproducibility and consistency:</h5>The data tables ensure consistency in the information provided, as they are pre-built and based on reliable data sources. This allows for reproducibility of analysis, making it easier to track and compare insights over time.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Creating pre-built data tables for quick insights eliminates the need for complex SQL joins, streamlines analysis, improves decision-making speed, boosts productivity, and ensures data consistency and reproducibility.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h3 class="blog-subheading">Conclusion:</h3>
+            <p>In conclusion, this case study focused on analyzing customer patterns and preferences at Danny's Diner, a Japanese food restaurant. The goal was to enhance the customer experience and loyalty program by utilizing data-driven insights.</p>
+            <p>The study began with an introduction to Danny's Diner and its need for assistance in leveraging the captured data to run the business effectively. The problem statement emphasized Danny's desire to understand customer visiting patterns, expenditure, and favorite menu items to personalize the dining experience and strengthen customer loyalty.</p>
+            <p>Three key datasets were provided: sales, menu, and members. The sales table captured customer-level purchases with order dates and corresponding product IDs. The menu table mapped product IDs to product names and prices. The members table recorded customer IDs and join dates for the loyalty program.</p>
+            <p>The questions covered various aspects, such as total customer expenditure, number of days visited, first and most popular menu items, and points earned through the loyalty program.</p>
+            <p>By answering these questions, Danny's Diner can gain valuable insights into customer behavior, preferences, and loyalty, enabling them to make informed decisions about enhancing the customer experience and expanding the loyalty program.</p>
+            <p>In summary, through data analysis and SQL queries, Danny's Diner can unlock the potential of their captured data to provide a better dining experience, strengthen customer relationships, and drive business growth.</p>
+          </div>
+          
+          <br>
+           <div class="blog-navigation d-flex justify-content-between">
+            <a href="../../../projects.html" class="btn btn-primary btn-previous">Previous</a>
+            <a href="" class="btn btn-primary btn-next">Next</a>
+          </div> 
+
+        </article>
+      </div>
+    </div>
+</div>
+
+<!-- Footer Start -->
+<div class="bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+    <div class="py-5 px-lg-5">
+        <div class="row g-5 justify-content-center">
+            <div class="col-md-6 col-lg-3">
+                <p class="section-title text-white h5 mb-4 ">Address</p>
+                <p class=""><i class="fa fa-map-marker-alt me-3"></i>India</p>
+                <p class=""><i class="fa fa-phone-alt me-3"></i>+91 94486*****</p>
+                <style>
+                    .email-container {
+                      display: flex;
+                      align-items: center;
+                       /* Added to center the email */
+                    }
+                    .email-container p {
+                      margin-bottom: 0;
+                    }
+                </style>
+                <div class="email-container">
+                    <i class="fa fa-envelope me-3"></i>
+                    <p>pradeepchandrareddy95@gmail.com</p>
+                </div>
+                <div class="d-flex  pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://github.com/soopertramp"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/pradeepchandra-reddy-s-c/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://soopertramp.github.io/portfolio-/"><i class="fa fa-globe"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/soopertramp07/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://datalemur.com/profile"><i class="fa fa-laptop-code"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <p class="section-title text-white h5 mb-4 text-center">Quick Links</p>
+                <div class="d-flex flex-column justify-content-center">
+                    <a class="btn btn-link" href="../../../about.html">About</a>
+                    <a class="btn btn-link" href="../../../contact.html">Contact</a>
+                    <a class="btn btn-link" href="../../../projects.html">Projects</a>
+                    <a class="btn btn-link" href="../../../blogs.html">Blogs</a>
+                    <a class="btn btn-link" href="../../../testimonials.html">Testimonials</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-lg-5">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Pradeepchandra</a>, All Right Reserved. 
+      
+      <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+      Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex and Myself</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <a href="">Cookies</a>
+                        <a href="">Help</a>
+                        <a href="">FQAs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->  
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../lib/wow/wow.min.js"></script>
+    <script src="../../../lib/easing/easing.min.js"></script>
+    <script src="../../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../../lib/counterup/counterup.min.js"></script>
+    <script src="../../../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../../../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../../../lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../../../js/main.js"></script>
+</body>
+
+</html>    
