@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Case Study - 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta property="og:image" content="https://imgur.com/5XOmrWw.png">
+
+    <!-- Favicon -->
+    <link href="../../../img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../../../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../../../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../../../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0">SQL Case Study</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <div class="navbar-nav mx-auto py-0">
+                      <a href="../../../index.html" class="nav-item nav-link">Home</a>
+                      <a href="../../../projects.html" class="nav-item nav-link active">Projects</a>
+                      <a href="../../../blogs.html" class="nav-item nav-link">Blogs</a>
+                      <a href="../../../services.html" class="nav-item nav-link">Services</a>
+                      <a href="../../../about.html" class="nav-item nav-link">About</a>
+                      <a href="../../../contact.html" class="nav-item nav-link">Contact</a>
+                      <div class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                          <div class="dropdown-menu m-0">
+                              <a href="../../../testimonials.html" class="dropdown-item">Testimonials</a>
+                              <a href="../../../404.html" class="dropdown-item">404 Page</a>
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+            </nav>
+
+            <div class="py-5 bg-primary hero-header">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <div class="col-12 text-center">
+                            <h1 class="text-white animated slideInDown">Case Study 2 - Pizza Runner</h1>
+                            <hr class="bg-white mx-auto mt-0" style="width: 90px;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a class="text-white" href="../../../index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="../../../projects.html">Projects</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="../../../about.html">About</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+<!-- Content Start -->
+<div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <article>
+          <h2 class="blog-heading text-center">Pizza Runner: Enhancing Customer Experience and Optimizing Operations</h2>
+          <h5 class="blog-heading text-center">Through Data Analysis and Delivery Network Management</h5><br>
+          <p class="blog-meta">Published on <span class="blog-date">July 10, 2023</span> by <span class="blog-author">Pradeepchandra Reddy S C</span></p>
+          <p class="blog-tags">Tags: <a href="second" class="tag">SQL</a>, <a href="#" class="tag">Data Analysis</a></p>
+          <hr class="blog-separator">
+          <div class="text-center">
+            <img src="../../../projects_blogs/2. SQL/2nd case study/2.png" alt="SQL Introduction" class="blog-image" style="max-width: 100%; height: auto;">
+          </div><br>
+
+          <hr class="blog-separator">
+          <div class="text-justify">
+            <h3 class="blog-subheading">Introduction:</h3>
+            <p>Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)</p>
+            <p>Danny was scrolling through his Instagram feed when something really caught his eye - “80s Retro Styling and Pizza Is The Future!”</p>
+            <p>Danny was sold on the idea, but he knew that pizza alone was not going to help him get seed funding to expand his new Pizza Empire - so he had one more genius idea to combine with it - he was going to Uberize it - and so Pizza Runner was launched!</p>
+            <p>Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.</p>
+          </div>
+
+          <div class="text-justify">
+            <h3 class="blog-subheading">Available Data</h3>
+            <p>Because Danny had a few years of experience as a data scientist - he was very aware that data collection was going to be critical for his business’ growth.</p>
+            <p>He has prepared for us an entity relationship diagram of his database design but requires further assistance to clean his data and apply some basic calculations so he can better direct his runners and optimise Pizza Runner’s operations.</p>
+
+            <h4>Danny has shared with me 6 key datasets for this case study:</h4>
+            <ul>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">runners</code></li>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">customer_orders</code></li>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">runner_orders</code></li>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">pizza_names</code></li>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">pizza_recipes</code></li>
+                <li><code class="language-plaintext highlighter-rouge" style="color: blue;">pizza_toppings</code></li>
+              </ul>
+          </div>
+
+          <p>You can inspect the entity relationship diagram and example data below.</p>
+
+          <h4 id="entity-relationship-diagram">Entity Relationship Diagram</h4>
+
+          <iframe src="https://dbdiagram.io/embed/5f3e085ccf48a141ff558487" width="750" height="500"></iframe>
+
+          <div class="text-justify">
+            <h3 class="blog-subheading">Example Datasets</h3>
+            <p>All datasets exist within the dannys_diner database schema</p>
+            <h5>Table 1 : runners</h5>
+            <p>The runners table shows the registration_date for each new runner</p>
+            <style>
+                table {
+                  width: 100%;
+                  height: 300px;
+                }
+            </style>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Runner ID</th>
+                    <th>Registration Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>2021-01-01</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>2021-01-03</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>2021-01-08</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>2021-01-15</td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+            <h5>Table 2: customer_orders</h5>
+            <p>ustomer pizza orders are captured in the customer_orders table with 1 row for each individual pizza that is part of the order.</p>
+            <p>The pizza_id relates to the type of pizza which was ordered whilst the exclusions are the ingredient_id values which should be removed from the pizza and the extras are the ingredient_id values which need to be added to the pizza.</p>
+            <p>Note that customers can order multiple pizzas in a single order with varying exclusions and extras values even if the pizza is the same type!</p>
+            <p>The exclusions and extras columns will need to be cleaned up before using them in your queries.</p>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Customer ID</th>
+                    <th>Pizza ID</th>
+                    <th>Exclusions</th>
+                    <th>Extras</th>
+                    <th>Order Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>101</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>2021-01-01 18:05:02</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>101</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>2021-01-01 19:00:52</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>102</td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td>2021-01-02 23:51:23</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>102</td>
+                    <td>2</td>
+                    <td>NaN</td>
+                    <td></td>
+                    <td>2021-01-02 23:51:23</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>103</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td></td>
+                    <td>2021-01-04 13:23:46</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>103</td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td></td>
+                    <td>2021-01-04 13:23:46</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>103</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td></td>
+                    <td>2021-01-04 13:23:46</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>104</td>
+                    <td>1</td>
+                    <td>null</td>
+                    <td>1</td>
+                    <td>2021-01-08 21:00:29</td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+            <h5>Table 3: runner_orders</h5>
+            <p>After each orders are received through the system - they are assigned to a runner - however not all orders are fully completed and can be cancelled by the restaurant or the customer.</p>
+            <p>The pickup_time is the timestamp at which the runner arrives at the Pizza Runner headquarters to pick up the freshly cooked pizzas. The distance and duration fields are related to how far and long the runner had to travel to deliver the order to the respective customer.</p>
+            <p>There are some known data issues with this table so be careful when using this in your queries - make sure to check the data types for each column in the schema SQL!</p>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Runner ID</th>
+                    <th>Pickup Time</th>
+                    <th>Distance</th>
+                    <th>Duration</th>
+                    <th>Cancellation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2021-01-01 18:15:34</td>
+                    <td>20km</td>
+                    <td>32 minutes</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2021-01-01 19:10:54</td>
+                    <td>20km</td>
+                    <td>27 minutes</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>2021-01-03 00:12:37</td>
+                    <td>13.4km</td>
+                    <td>20 mins</td>
+                    <td>NaN</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>2021-01-04 13:53:03</td>
+                    <td>23.4</td>
+                    <td>40</td>
+                    <td>NaN</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>2021-01-08 21:10:57</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>NaN</td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+            <h5>Table 4: pizza_names</h5>
+            <p>At the moment - Pizza Runner only has 2 pizzas available the Meat Lovers or Vegetarian!</p>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Pizza ID</th>
+                    <th>Pizza Name</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Meat Lovers</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Vegetarian</td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+            <h5>Table 5: pizza_recipes</h5>
+            <p>Each pizza_id has a standard set of toppings which are used as part of the pizza recipe.</p>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th>Pizza ID</th>
+                    <th>Toppings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>1, 2, 3, 4, 5, 6, 8, 10</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>4, 6, 7, 9, 11, 12</td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+            <h5>Table 6: pizza_toppings</h5>
+            <p>This table contains all of the topping_name values with their corresponding topping_id value</p>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Topping ID</th>
+                    <th>Topping Name</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Bacon</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>BBQ Sauce</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Beef</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Cheese</td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+          </div>
+
+            <p class="blog-credit"><b>Credits</b> - Grateful to Danny Ma for Creating this case study</p> 
+            <p><a href="https://8weeksqlchallenge.com/">8 Week SQL Challenge</a></p> 
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/datawithdanny/">Danny Ma on LinkedIn</a></p>
+
+            <div class="text-justify">
+                <h3 class="blog-subheading text-justify">Case Study Questions</h3>
+                <h5 class="blog-subheading text-justify">They are broken up by area of focus including:</h5>
+                <ul>
+                    <li>Pizza Metrics</li>
+                    <li>Runner and Customer Experience</li>
+                    <li>Ingredient Optimisation</li>
+                    <li>Pricing and Ratings</li>
+                    <li>Bonus DML Challenges (DML = Data Manipulation Language)</li>
+                </ul>
+            </div>
+
+            <p>Before going into analysis we need to clean and transform the data</p>
+            <div class="text-justify">
+                <h4 class="blog-subheading">Data Cleaning & Transformation</h4>
+                <h5>Table - customer_orders</h5>
+                <p>Looking at the customer_orders table below, we can see that there are:</p>
+                <ul>
+                    <li>In the exclusions column, there are missing/ blank spaces ' ' and null values.</li>
+                    <li>In the extras column, there are missing/ blank spaces ' ' and null values.</li>
+                </ul>
+
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Order ID</th>
+                        <th>Customer ID</th>
+                        <th>Pizza ID</th>
+                        <th>Exclusions</th>
+                        <th>Extras</th>
+                        <th>Order Time</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>101</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td>2021-01-01 18:05:02</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>101</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td>2021-01-01 19:00:52</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>102</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td>2021-01-02 23:51:23</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>102</td>
+                        <td>2</td>
+                        <td>NaN</td>
+                        <td></td>
+                        <td>2021-01-02 23:51:23</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>103</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td></td>
+                        <td>2021-01-04 13:23:46</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>103</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td></td>
+                        <td>2021-01-04 13:23:46</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>103</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td></td>
+                        <td>2021-01-04 13:23:46</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>104</td>
+                        <td>1</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>2021-01-08 21:00:29</td>
+                      </tr>
+                    </tbody>
+                  </table><br>
+                  
+                <p>Our course of action to clean the table:</p>
+                <ul>
+                    <li>In pickup_time column, remove nulls and replace with blank space ' '.</li>
+                    <li>In distance column, remove "km" and nulls and replace with blank space ' '.</li>
+                    <li>In duration column, remove "minutes", "minute" and nulls and replace with blank space ' '.</li>
+                    <li>In cancellation column, remove NULL and null and and replace with blank space ' '.</li>
+                </ul>
+                <script src="https://gist.github.com/soopertramp/f4e2b507ea73e65e10f2f08b760a1131.js"></script>
+                <p>After cleaning this is how it looks</p>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Order ID</th>
+                        <th>Customer ID</th>
+                        <th>Pizza ID</th>
+                        <th>Exclusions</th>
+                        <th>Extras</th>
+                        <th>Order Time</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>101</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td>2021-01-01 18:05:02</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>101</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td>2021-01-01 19:00:52</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>102</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td>2021-01-02 23:51:23</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>102</td>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                        <td>2021-01-02 23:51:23</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>103</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td></td>
+                        <td>2021-01-04 13:23:46</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>103</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td></td>
+                        <td>2021-01-04 13:23:46</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>103</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td></td>
+                        <td>2021-01-04 13:23:46</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>104</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2021-01-08 21:00:29</td>
+                      </tr>
+                    </tbody>
+                  </table><br>
+            </div>
+
+            <h5>Table - runners_orders</h5>
+                <p>Looking at the runner_orders table below, we can see that there are:</p>
+                <ul>
+                    <li>In the exclusions column, there are missing/ blank spaces ' ' and null values.</li>
+                    <li>In the extras column, there are missing/ blank spaces ' ' and null values</li>
+                </ul>
+            
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Order ID</th>
+                        <th>Runner ID</th>
+                        <th>Pickup Time</th>
+                        <th>Distance</th>
+                        <th>Duration</th>
+                        <th>Cancellation</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>2021-01-01 18:15:34</td>
+                        <td>20km</td>
+                        <td>32 minutes</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2021-01-01 19:10:54</td>
+                        <td>20km</td>
+                        <td>27 minutes</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2021-01-03 00:12:37</td>
+                        <td>13.4km</td>
+                        <td>20 mins</td>
+                        <td>NaN</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>2021-01-04 13:53:03</td>
+                        <td>23.4</td>
+                        <td>40</td>
+                        <td>NaN</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>2021-01-08 21:10:57</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>NaN</td>
+                      </tr>
+                    </tbody>
+                  </table><br>
+
+                  <p>Our course of action to clean the table:</p>
+                  <ul>
+                      <li>In pickup_time column, remove nulls and replace with blank space ' '.</li>
+                      <li>In distance column, remove "km" and nulls and replace with blank space ' '.</li>
+                      <li>In duration column, remove "minutes", "minute" and nulls and replace with blank space ' '.</li>
+                      <li>In cancellation column, remove NULL and null and and replace with blank space ' '.</li>
+                  </ul>
+                  <script src="https://gist.github.com/soopertramp/3147304492ae5a9e5dc2855acb3639d6.js"></script>
+
+            <p>Then, we alter the pickup_time, distance and duration columns to the correct data type.</p>
+            <script src="https://gist.github.com/soopertramp/e0b891f3d0aa092eb17d888f90ab8078.js"></script>
+            <p>After cleaning this is how it looks</p>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Runner ID</th>
+                    <th>Pickup Time</th>
+                    <th>Distance</th>
+                    <th>Duration</th>
+                    <th>Cancellation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2021-01-01 18:15:34</td>
+                    <td>20</td>
+                    <td>32</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2021-01-01 19:10:54</td>
+                    <td>20</td>
+                    <td>27</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>2021-01-03 00:12:37</td>
+                    <td>13.4</td>
+                    <td>20</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>2021-01-04 13:53:03</td>
+                    <td>23.4</td>
+                    <td>40</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>2021-01-08 21:10:57</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+            <div class="text-justify">
+                <h3 class="blog-subheading text-justify">A. Pizza Metrics</h3><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">1. How many pizzas were ordered?</h4><br>
+                <script src="https://gist.github.com/soopertramp/936c9e8eef14cd8d738a6f76182bf0dc.js"></script><br>
+                <p>Total of 14 pizzas were ordered.</p>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Inventory management:</h5>Understanding the number of pizzas ordered helps the business manage its inventory effectively. It allows them to estimate the quantity of ingredients and supplies required to meet the demand and avoid shortages or wastage.</p>
+                    <p><h5>Production planning:</h5>The order count helps in planning the production of pizzas. It provides insights into the volume of orders, allowing the business to allocate resources and schedule production shifts accordingly. This helps maintain efficiency and ensures timely order fulfillment.</p>
+                    <p><h5>Sales analysis:</h5>The total count of pizzas ordered provides valuable data for sales analysis. It allows the business to assess the popularity of pizzas and identify trends in customer preferences. This information can guide menu optimization, promotional campaigns, and product development strategies.</p> 
+                    <p><h5>Revenue forecasting:</h5>By knowing the number of pizzas ordered, the business can forecast its revenue. It helps in estimating sales and projecting future financial performance. This information is crucial for financial planning, budgeting, and setting sales targets.</p> 
+                    <p><h5>Customer satisfaction:</h5>Monitoring the order count provides an indication of customer satisfaction. If the number of orders is high, it suggests that customers enjoy the pizzas and are likely to be satisfied with their dining experience. This information can help identify popular menu items and ensure consistent quality to drive customer loyalty.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Knowing the total count of pizzas ordered helps the business with inventory management, production planning, sales analysis, revenue forecasting, and customer satisfaction. It enables efficient resource allocation, data-driven decision-making, and overall business optimization.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">2. How many unique customer orders were made?</h4><br>
+                <script src="https://gist.github.com/soopertramp/9fec336a181c35a8c744a7bd25dd7bd7.js"></script><br>
+                <p>Total of 10 pizzas were ordered.</p>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Sales analysis:</h5>The count of unique orders provides insights into the number of distinct transactions made by customers. It helps the business analyze sales performance and identify patterns or trends in customer behavior. This information can guide pricing strategies, promotional campaigns, and overall sales planning.</p>
+                    <p><h5>Customer engagement:</h5>Understanding the count of unique orders helps assess customer engagement and loyalty. It indicates the number of customers who have placed orders, allowing the business to identify repeat customers and measure their satisfaction. This data can support customer retention efforts and help tailor marketing strategies to enhance customer loyalty.</p>
+                    <p><h5>Demand forecasting:</h5>The count of unique orders aids in demand forecasting. By analyzing historical order patterns, the business can estimate future sales and plan inventory levels accordingly. It ensures sufficient stock availability to meet customer demand while avoiding overstocking or shortages.</p> 
+                    <p><h5>Operational efficiency:</h5>Monitoring the count of unique orders helps the business assess its operational efficiency. It allows for evaluating order processing times, delivery performance, and overall customer service. This data helps identify areas for improvement and streamline operations to enhance customer satisfaction and optimize resource allocation.</p> 
+                    <p><h5>Revenue tracking:</h5>Tracking the count of unique orders provides a basis for revenue tracking and financial analysis. It helps measure sales growth, evaluate pricing strategies, and assess the effectiveness of promotional efforts. This information is essential for budgeting, financial planning, and identifying opportunities for revenue optimization.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Knowing the count of unique orders helps the business analyze sales performance, assess customer engagement, forecast demand, improve operational efficiency, and track revenue. It enables data-driven decision-making, enhances customer satisfaction, and supports overall business planning and performance evaluation.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">3. How many successful orders were delivered by each runner?</h4><br>
+                <script src="https://gist.github.com/soopertramp/e214a3b667a2488a2809a03515559e52.js"></script><br>
+                <p>The number of successful deliveires from each runner:</p>
+                <ul>
+                <li>Runner 1 has 4 successful delivered orders.</li>
+                <li>Runner 2 has 3 successful delivered orders.</li>
+                <li>Runner 3 has 1 successful delivered order.</li>
+                </ul>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Performance evaluation:</h5>The count of successful delivered orders allows the business to evaluate the performance of individual runners. It helps identify high-performing runners who consistently fulfill orders successfully and meet customer expectations. This information can be used for recognition, incentives, and performance management.</p>
+                    <p><h5>Resource allocation:</h5>Understanding the number of successful delivered orders for each runner helps in resource allocation and scheduling. The business can assign more orders to runners who have a track record of successful deliveries, ensuring efficient and timely order fulfillment. It optimizes the allocation of resources such as delivery personnel and vehicles.</p>
+                    <p><h5>Customer satisfaction:</h5>Monitoring the count of successful delivered orders helps gauge customer satisfaction. A higher number of successful orders indicates that runners are meeting delivery expectations and ensuring a positive customer experience. It helps identify areas for improvement and ensure consistent service quality.</p> 
+                    <p><h5>Operational efficiency:</h5>By analyzing the count of successful delivered orders, the business can identify potential bottlenecks or inefficiencies in the delivery process. It helps identify areas for improvement, such as optimizing delivery routes, providing additional training or support to runners, or streamlining order management systems. This improves overall operational efficiency and customer satisfaction.</p> 
+                    <p><h5>Quality control:</h5>Tracking the count of successful delivered orders helps the business maintain quality control standards. It provides insights into the reliability and consistency of runners in delivering orders successfully. It enables the business to identify any issues or deviations from expected service levels and take corrective measures to ensure quality standards are met.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Knowing the count of successful delivered orders for each runner helps evaluate performance, allocate resources efficiently, ensure customer satisfaction, improve operational efficiency, and maintain quality control. It enables data-driven decision-making and supports overall business optimization.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">4. How many of each type of pizza was delivered?</h4><br>
+                <script src="https://gist.github.com/soopertramp/0f63ba1769ba162475d4a4bc5a999201.js"></script><br>
+                <p>There are 9 delivered Meatlovers pizzas and 3 Vegetarian pizzas.</p>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Menu optimization:</h5>The count of delivered pizzas provides insights into the popularity of different pizza types. It helps the business identify the most popular pizzas and optimize its menu accordingly. This information can guide decisions on menu offerings, pricing, and promotional strategies to maximize customer satisfaction and revenue.</p>
+                    <p><h5>Inventory management:</h5>Understanding the count of delivered pizzas for each type helps with inventory management. It allows the business to estimate the demand for specific ingredients and toppings associated with popular pizzas. This helps in planning and maintaining optimal inventory levels, reducing waste, and ensuring smooth operations.</p>
+                    <p><h5>Supplier management:</h5>The information on delivered pizzas supports effective supplier management. By analyzing the count of pizzas for each type, the business can identify suppliers who consistently provide quality ingredients for popular pizzas. This helps in fostering good supplier relationships and ensuring a reliable supply chain.</p> 
+                    <p><h5>Sales analysis:</h5>The count of delivered pizzas enables sales analysis. It helps the business track the performance of different pizza types and identify trends in customer preferences. This information assists in making data-driven decisions regarding promotions, discounts, and targeted marketing campaigns to drive sales and increase customer engagement.</p> 
+                    <p><h5>Customer satisfaction:</h5>Monitoring the count of delivered pizzas for each type allows the business to assess customer satisfaction. By identifying popular pizzas, the business can ensure consistent quality and timely delivery, enhancing the overall dining experience. Satisfied customers are more likely to become repeat customers and recommend the business to others.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Knowing the count of delivered pizzas for each type helps optimize the menu, manage inventory efficiently, analyze sales performance, foster supplier relationships, and enhance customer satisfaction. It enables data-driven decisions and improves overall business performance.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">5. How many Vegetarian and Meatlovers were ordered by each customer?</h4><br>
+                <script src="https://gist.github.com/soopertramp/667d5fb9396ac1c2eede40d0d77f7a1a.js"></script><br>
+                <ul>
+                    <li>Customer 101 ordered 2 Meatlovers pizzas and 1 Vegetarian pizza.</li>
+                    <li>Customer 102 ordered 2 Meatlovers pizzas and 2 Vegetarian pizzas.</li>
+                    <li>Customer 103 ordered 3 Meatlovers pizzas and 1 Vegetarian pizza.</li>
+                    <li>Customer 104 ordered 3 Meatlovers pizza.</li>
+                    <li>Customer 105 ordered 1 Vegetarian pizza.</li>
+                </ul>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Customer segmentation:</h5>The information allows the business to segment customers based on their pizza preferences. It helps identify patterns and preferences among different customer groups, enabling targeted marketing strategies and personalized offers.</p>
+                    <p><h5>Menu optimization:</h5>Understanding the count of pizzas ordered for each type helps in menu optimization. It allows the business to identify the most popular pizzas and ensure their availability and quality. It also helps in identifying potential gaps in the menu or opportunities for introducing new pizza varieties based on customer preferences.</p>
+                    <p><h5>Demand forecasting:</h5>The count of pizzas ordered by each customer helps in demand forecasting. By analyzing order patterns and trends, the business can estimate future demand for specific pizza types. This information aids in production planning, inventory management, and ensuring sufficient stock levels.</p> 
+                    <p><h5>Upselling and cross-selling:</h5>Analyzing the count of pizzas ordered by each customer allows the business to identify upselling and cross-selling opportunities. For example, customers who frequently order Meatlovers pizzas may be more receptive to offers or promotions related to other meat-based pizzas or complementary items like side dishes or beverages.</p> 
+                    <p><h5>Customer satisfaction and retention:</h5>Monitoring the count of pizzas ordered helps gauge customer satisfaction. It allows the business to identify loyal customers who consistently order their preferred pizzas. By providing personalized offers and ensuring quality and timely deliveries, the business can enhance customer satisfaction and foster long-term loyalty.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Knowing the count of pizzas ordered by each customer helps with customer segmentation, menu optimization, demand forecasting, upselling/cross-selling, and enhancing customer satisfaction and retention. It enables personalized marketing strategies and improves overall business performance.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">6. What was the maximum number of pizzas delivered in a single order?</h4><br>
+                <script src="https://gist.github.com/soopertramp/a076e400be9e6ffcfde154dc31e2c212.js"></script><br>
+                <p>Maximum number of pizza delivered in a single order is 3 pizzas.</p>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Resource Allocation:</h5>Understanding the maximum number of pizzas delivered in a single order helps in optimizing resource allocation. The business can ensure they have enough ingredients, staff, and delivery capacity to handle larger orders efficiently.</p>
+                    <p><h5>Operational Efficiency:</h5>By identifying the maximum number of pizzas in an order, the business can streamline their operations and processes to handle such orders more effectively. This may involve optimizing kitchen workflows, delivery routes, and packaging methods to maintain the quality and timeliness of larger orders.</p>
+                    <p><h5>Upselling and Promotions:</h5>Knowing the maximum order size allows the business to design targeted upselling strategies and promotional offers. They can create special deals or bundle offers that encourage customers to order more pizzas per order, thereby increasing the average order value and revenue.</p> 
+                    <p><h5>Customer Satisfaction:</h5>Large orders indicate customers' trust and satisfaction with the business. By ensuring smooth and reliable delivery of larger orders, the business can enhance customer satisfaction and loyalty. They can also gather feedback from customers who place large orders to understand their preferences and improve their overall experience.</p> 
+                    <p><h5>Menu Planning:</h5>The business can analyze the toppings, pizza types, and combinations that are commonly ordered in larger quantities. This information can guide menu planning and help the business introduce new pizza options or variations to cater to customer preferences and increase sales.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Knowing the maximum number of pizzas delivered in a single order helps the business optimize resources, improve operational efficiency, design targeted promotions, enhance customer satisfaction, and plan menu offerings.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?</h4><br>
+                <script src="https://gist.github.com/soopertramp/f52a5240f287e451bcd540afda8d1b50.js"></script><br>
+                <ul>
+                    <li>3 customers had at least one change in their pizza</li>
+                    <li>3 pizzas ordered by customers had no change at all.</li>
+                </ul>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Personalized Offerings:</h5>Recognizing that some customers prefer customized pizzas with changes in toppings (exclusions or extras) allows the business to offer personalized options. They can create special menu items or customizable pizza options to cater to these preferences, providing a more tailored experience for customers.</p>
+                    <p><h5>Upselling Opportunities:</h5>Identifying customers who are open to changes in their pizza orders presents upselling opportunities. The business can suggest additional toppings or premium ingredients as upsell options, increasing the average order value and boosting revenue.</p>
+                    <p><h5>Customer Retention:</h5>By catering to customers' preferences for customized pizzas, the business can enhance customer satisfaction and loyalty. Offering flexibility and accommodating changes in toppings can make customers feel valued, increasing the likelihood of repeat orders and fostering long-term relationships.</p> 
+                    <p><h5>Menu Optimization:</h5>Analyzing customers' preferences for original recipe pizzas versus customized ones helps in menu optimization. The business can evaluate the popularity of different toppings and combinations, adjusting their menu offerings accordingly to align with customer preferences and streamline operations.</p> 
+                    <p><h5>Marketing and Promotions:</h5>Utilizing the knowledge of customers' preferences for customized pizzas, the business can create targeted marketing campaigns and promotions. They can highlight the option for customization, enticing customers who enjoy making changes to their pizza orders and attracting new customers with tailored offerings.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Understanding customers' preferences for customized pizzas helps the business offer personalized options, increase upselling opportunities, enhance customer satisfaction and loyalty, optimize menu offerings, and create targeted marketing campaigns.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">8. How many pizzas were delivered that had both exclusions and extras?</h4><br>
+                <script src="https://gist.github.com/soopertramp/3ef65c7ab89801269850a6280e691537.js"></script><br>
+                <ul>
+                    <li>Only 1 Pizzas had both exclusions and extra toppings in theie pizza.</li>
+                </ul>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Customization Trends:</h5>Understanding that a significant number of customers prefer customized pizzas with both exclusions and extras provides valuable insights into the customization trends. The business can analyze the specific toppings that are commonly excluded or added as extras, helping them tailor their menu offerings and create targeted promotions to cater to these preferences.</p>
+                    <p><h5>Upselling Opportunities:</h5>Recognizing the popularity of pizzas with both exclusions and extras presents upselling opportunities. The business can highlight premium toppings or unique combinations as additional options for customers to further customize their pizzas. This can lead to increased average order value and revenue.</p>
+                    <p><h5>Menu Optimization:</h5>The information about pizzas with exclusions and extras helps the business optimize its menu. They can evaluate the popularity of different customization options and consider adding pre-designed specialty pizzas that align with customer preferences. This can streamline operations, reduce errors in customization, and enhance overall customer satisfaction.</p> 
+                    <p><h5>Customer Satisfaction:</h5>Offering the flexibility for customers to personalize their pizzas with both exclusions and extras can greatly enhance their satisfaction. By consistently delivering customized orders with high accuracy, the business can build strong customer loyalty and positive word-of-mouth referrals.</p> 
+                    <p><h5>Data-Driven Decision Making:</h5>The data on pizzas with exclusions and extras can be used for data-driven decision making. The business can track and analyze the impact of customization on customer satisfaction, order value, and overall business performance. This information can guide future strategies, marketing campaigns, and menu innovations to continuously meet customer demands.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Understanding the presence of both exclusions and extras in customer orders provides valuable insights for menu planning, customer satisfaction, upselling opportunities, and data-driven decision making. By leveraging this information effectively, the business can enhance customer experience, drive revenue growth, and stay competitive in the market.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">9. What was the total volume of pizzas ordered for each hour of the day?</h4><br>
+                <script src="https://gist.github.com/soopertramp/e4f08950afff2e4bdb1016103434f18a.js"></script><br>
+                <ul>
+                    <li>Highest volume of pizza ordered is at 13 (1:00 pm), 18 (6:00 pm), 21 (9:00 pm) and 23 (11:00 pm).</li>
+                    <li>Lowest volume of pizza ordered is at 11 (11:00 am) and 19 (7:00 pm).</li>
+                </ul>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Staffing and Resource Allocation:</h5>Knowing the peak hours of pizza orders allows the business to efficiently allocate staff and resources. They can schedule more employees during high-volume hours to ensure prompt order preparation and delivery, reducing customer wait times and enhancing overall service quality.</p>
+                    <p><h5>Inventory Management:</h5>Understanding the busy and slow periods helps the business optimize inventory management. They can adjust ingredient stock levels and production quantities to align with the demand fluctuations throughout the day, minimizing waste and ensuring sufficient supply during peak hours.</p>
+                    <p><h5>Delivery Optimization:</h5>Identifying the busiest hours for pizza orders enables the business to optimize their delivery operations. They can plan delivery routes and assign drivers strategically to ensure timely deliveries during high-demand periods, improving customer satisfaction and retention.</p> 
+                    <p><h5>Marketing and Promotions:</h5> Utilizing the knowledge of peak and off-peak hours, the business can create targeted marketing campaigns and promotions. They can offer time-specific deals or discounts during slower periods to stimulate demand and attract more customers during those hours.</p> 
+                    <p><h5>Menu Planning:</h5> The information about high and low volume hours can guide menu planning. The business can introduce special menu items or promotions that cater to customer preferences during peak hours, offering attractive choices and enhancing the overall customer experience.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Analyzing the volume of pizza orders by the hour helps the business optimize staffing, inventory, and delivery operations. It also enables targeted marketing and promotions, as well as menu planning based on customer preferences during peak hours.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">10. What was the volume of orders for each day of the week?</h4><br>
+                <script src="https://gist.github.com/soopertramp/e023b8a1983f7954342c844c6b5bc898.js"></script><br>
+                <ul>
+                    <li>There are 5 pizzas ordered on Sunday and Wednesday.</li>
+                    <li>There are 3 pizzas ordered on Monday.</li>
+                    <li>There is 1 pizza ordered on Tuesday.</li>
+                </ul>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Demand Forecasting:</h5>Understanding the pizza order volume for each day of the week helps the business forecast future demand. They can anticipate busy and slow days, allowing for better planning of resources, such as staffing and inventory, to efficiently meet customer demands.</p>
+                    <p><h5>Menu Planning and Specials:</h5>By identifying the popular and slower days for pizza orders, the business can tailor their menu offerings and promotions accordingly. They can introduce special menu items or targeted promotions on slower days to stimulate demand and attract more customers.</p>
+                    <p><h5>Operational Efficiency:</h5>Knowing the order patterns by day of the week enables the business to optimize their operations. They can adjust staffing levels, production quantities, and delivery schedules based on the expected order volume for each day, ensuring smooth operations and minimizing waste.</p> 
+                    <p><h5>Marketing Strategies:</h5> The information about order volume by day of the week helps in developing effective marketing strategies. The business can target specific days with promotions, discounts, or loyalty programs to incentivize customers and drive sales during slower periods.</p> 
+                    <p><h5>Customer Engagement:</h5> Recognizing the popular days for pizza orders allows the business to engage with customers and create a sense of anticipation. They can plan special events, themed offers, or limited-time deals on popular days to foster customer loyalty and enhance the overall dining experience.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Analyzing pizza orders by day of the week helps the business forecast demand, optimize operations, plan menus, and tailor marketing strategies. It enables efficient resource allocation, targeted promotions, and enhanced customer engagement for improved business performance and customer satisfaction.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+                <h3 class="blog-subheading text-justify">B. Runner and Customer Experience</h3><br>
+            </div>
+
+            <div class="text-justify">
+                <h4 class="blog-subheading">1. How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)</h4><br>
+                <script src="https://gist.github.com/soopertramp/7f9c27b390d8ee1b63fe85d0244b18b7.js"></script><br>
+                <ul>
+                    <li>On Week 1 of Jan 2021, 2 new runners signed up.</li>
+                    <li>On Week 2 and 3 of Jan 2021, 1 new runner signed up.</li>
+                </ul>
+                <h5>Detailed Explanation</h5>
+                    <details>
+                    <summary>Click to view</summary>
+                    <p><h5>Performance tracking:</h5>Tracking weekly sign-ups allows the business to monitor its growth and track the effectiveness of marketing and recruitment efforts. It provides insights into the success of strategies aimed at attracting new runners and helps identify trends or patterns in registration.</p>
+                    <p><h5>Capacity planning:</h5>Understanding the number of new runners signing up each week helps the business in capacity planning. It helps estimate the resources required to accommodate new runners, such as providing adequate training, allocating staff, and managing logistics.</p>
+                    <p><h5>Revenue forecasting:</h5>The count of new runner sign-ups provides an indicator of potential revenue growth. By analyzing registration trends, the business can forecast future revenue, plan for expenses, and make informed financial decisions.</p> 
+                    <p><h5>Marketing and recruitment strategies:</h5>Knowing the weekly sign-up count helps assess the impact of marketing and recruitment strategies. It helps identify peak periods or successful campaigns and provides insights into the target audience's response to various marketing channels or messaging. This information can guide future marketing efforts and optimize recruitment strategies.</p> 
+                    <p><h5>Member engagement:</h5>Monitoring the number of new runners signing up each week helps the business focus on member engagement. By providing a positive onboarding experience for new runners, the business can increase member retention and satisfaction. This may include personalized welcome messages, orientation sessions, or exclusive offers for new members.</p>
+                    </details><br>
+                <h5>Short Explanation (Summary)</h5>
+                <details><br>
+                <summary>Click to view</summary>
+                <p>Knowing the count of new runner sign-ups each week helps track performance, plan capacity, forecast revenue, evaluate marketing strategies, and enhance member engagement. It enables data-driven decision-making and supports business growth and optimization.</p>
+                </details><br>
+            </div>
+
+            <div class="text-justify">
+              <h4 class="blog-subheading">2. What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?</h4><br>
+              <script src="https://gist.github.com/soopertramp/eeedb9b3ddafb6422b530c8f266da40f.js"></script><br>
+              <p>The average time it took for each runner to arrive at the Pizza Runner HQ to pickup the order are:</p>
+              <ul>
+                  <li>Runner 1 took 14 minutes of average time to pickup the order from HQ</li>
+                  <li>Runner 2 took 19 minutes of average time to pickup the order from HQ</li>
+                  <li>Runner 3 took 10 minutes of average time to pickup the order from HQ</li>
+              </ul>
+              <h5>Detailed Explanation</h5>
+                  <details>
+                  <summary>Click to view</summary>
+                  <p><h5>Operational efficiency:</h5>By understanding the average pickup time, the business can identify runners who consistently perform well in terms of quick order pickups. This information enables the business to recognize efficient runners and optimize its delivery operations for faster and more reliable service.</p>
+                  <p><h5>Customer satisfaction:</h5>Timely order pickups contribute to better customer satisfaction. By monitoring the average pickup time, the business can ensure that orders are promptly collected and dispatched for delivery. This enhances the overall customer experience and increases the likelihood of repeat orders and positive reviews.</p>
+                  <p><h5>Performance evaluation:</h5>Analyzing the average pickup time allows the business to evaluate the performance of individual runners. It provides insights into their efficiency and adherence to pickup schedules. This information can be used for performance reviews, training, and identifying areas for improvement.</p> 
+                  <p><h5>Service level improvement: </h5>Understanding the average pickup time helps the business identify potential bottlenecks or areas where the pickup process can be optimized. It may involve streamlining order management, adjusting pickup schedules, or providing additional support to runners to improve overall service levels.</p> 
+                  <p><h5>Operational planning:</h5>The average pickup time data aids in operational planning. It helps in assigning suitable runners for specific delivery routes or time slots based on their pickup efficiency. This supports better resource allocation and ensures timely deliveries.</p>
+                  </details><br>
+              <h5>Short Explanation (Summary)</h5>
+              <details><br>
+              <summary>Click to view</summary>
+              <p>Knowing the average pickup time for each runner helps improve operational efficiency, enhance customer satisfaction, evaluate performance, identify areas for improvement, and enable effective operational planning. It supports the business in delivering faster and more reliable service, leading to enhanced customer loyalty and business growth.</p>
+              </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">3. Is there any relationship between the number of pizzas and how long the order takes to prepare?</h4><br>
+            <script src="https://gist.github.com/soopertramp/a67222e30a6a24c8beae4db2bda7b724.js"></script><br>
+            <p>The analysis shows that there is a relationship between the number of pizzas in an order and the time it takes to prepare.</p>
+            <ul>
+                <li>On average, a single pizza order takes 12 minutes to prepare.</li>
+                <li>An order with 3 pizzas takes 29 minutes at an average of 9.5 minutes per pizza.</li>
+                <li>It takes 19 minutes to prepare an order with 2 pizzas which is 9.5 minutes per pizza. This suggests that preparing multiple pizzas in a single order is more efficient in terms of time per pizza compared to individual orders.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Operational efficiency:</h5>By understanding the average pickup time, the business can identify runners who consistently perform well in terms of quick order pickups. This information enables the business to recognize efficient runners and optimize its delivery operations for faster and more reliable service.</p>
+                <p><h5>Customer satisfaction:</h5>Timely order pickups contribute to better customer satisfaction. By monitoring the average pickup time, the business can ensure that orders are promptly collected and dispatched for delivery. This enhances the overall customer experience and increases the likelihood of repeat orders and positive reviews.</p>
+                <p><h5>Performance evaluation:</h5>Analyzing the average pickup time allows the business to evaluate the performance of individual runners. It provides insights into their efficiency and adherence to pickup schedules. This information can be used for performance reviews, training, and identifying areas for improvement.</p> 
+                <p><h5>Service level improvement: </h5>Understanding the average pickup time helps the business identify potential bottlenecks or areas where the pickup process can be optimized. It may involve streamlining order management, adjusting pickup schedules, or providing additional support to runners to improve overall service levels.</p> 
+                <p><h5>Operational planning:</h5>The average pickup time data aids in operational planning. It helps in assigning suitable runners for specific delivery routes or time slots based on their pickup efficiency. This supports better resource allocation and ensures timely deliveries.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Knowing the average pickup time for each runner helps improve operational efficiency, enhance customer satisfaction, evaluate performance, identify areas for improvement, and enable effective operational planning. It supports the business in delivering faster and more reliable service, leading to enhanced customer loyalty and business growth.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">4. What was the average distance travelled for each customer?</h4><br>
+            <script src="https://gist.github.com/soopertramp/2eb10e571c0ca216be0adae7f552de35.js"></script><br>
+            <p>Customer 104 stays the nearest to Pizza Runner HQ at average distance of 10km, whereas Customer 105 stays the furthest at 25km.</p>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Delivery optimization:</h5>Understanding the average distance allows the business to optimize delivery routes and assign runners more efficiently. Customers located closer to the HQ can be served more quickly, reducing delivery times and improving customer satisfaction. It also helps in planning the logistics of delivery operations.</p>
+                <p><h5>Resource allocation:</h5>By knowing the average distance, the business can allocate resources such as delivery personnel and vehicles more effectively. It helps determine the number of runners needed in specific areas based on customer density and distance. This ensures optimal resource utilization and cost management.</p>
+                <p><h5>Delivery fees:</h5>The average distance information helps in setting fair and competitive delivery fees. Customers residing further away from the HQ may incur higher delivery charges due to the increased distance. This allows the business to implement a pricing structure that considers the cost of longer deliveries while remaining competitive in the market.</p> 
+                <p><h5>Customer targeting:</h5>The average distance data enables the business to identify potential customer segments based on proximity to the HQ. It helps in developing targeted marketing strategies, promotions, or loyalty programs for customers within specific distance ranges. This can lead to increased customer engagement and loyalty.</p> 
+                <p><h5>Expansion planning:</h5>Understanding the average distance between customers and the HQ provides insights for potential expansion plans. It helps in evaluating the feasibility of opening new branches or satellite locations in areas with high customer density but far distances. This data supports informed decision-making and business growth strategies.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Knowing the average distance between customers and the Pizza Runner HQ assists in delivery optimization, resource allocation, pricing strategies, customer targeting, and expansion planning. It enables the business to enhance operational efficiency, customer satisfaction, and overall business performance.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">5. What was the difference between the longest and shortest delivery times for all orders?</h4><br>
+            <script src="https://gist.github.com/soopertramp/e11184c8c0743c914a8f40181320a993.js"></script><br>
+            <p> The difference between longest (40 minutes) and shortest (10 minutes) delivery time for all orders is 30 minutes.</p>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Performance evaluation:</h5>The difference in delivery times provides insights into the efficiency and consistency of the delivery process. It helps the business assess the performance of runners and identify areas where improvements can be made. By minimizing the delivery time variance, the business can strive for more reliable and predictable delivery service.</p>
+                <p><h5>Customer satisfaction:</h5>Consistency in delivery times contributes to better customer satisfaction. By reducing the difference between the longest and shortest delivery times, the business can ensure a more consistent experience for customers. This helps build trust and enhances the reputation of the business, leading to increased customer loyalty and positive word-of-mouth.</p>
+                <p><h5>Operational efficiency:</h5>Analyzing the difference in delivery times helps identify factors that contribute to longer or shorter delivery durations. It enables the business to pinpoint areas where operational efficiency can be improved, such as optimizing delivery routes, providing additional training to runners, or streamlining order processing. This leads to smoother operations and reduced delivery times overall.</p> 
+                <p><h5>Service level agreements:</h5>The difference in delivery times provides insights into meeting service level agreements (SLAs). If the business has specific delivery time commitments, monitoring the difference helps ensure compliance with those agreements. It enables the business to assess its performance against SLAs and take corrective actions if necessary.</p> 
+                <p><h5>Process optimization:</h5>Understanding the difference in delivery times helps the business identify potential bottlenecks or inefficiencies in the delivery process. It allows for process optimization by implementing measures to minimize variations and streamline operations. This can include improving coordination between runners and the HQ, leveraging technology for real-time tracking, or implementing automation to reduce delivery time variability.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Knowing the difference between the longest and shortest delivery times helps evaluate performance, enhance customer satisfaction, improve operational efficiency, adhere to service level agreements, and optimize delivery processes. It supports the business in delivering consistent and reliable service, ultimately leading to improved customer experiences and business growth.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">6. What was the average speed for each runner for each delivery and do you notice any trend for these values?</h4><br>
+            <script src="https://gist.github.com/soopertramp/d3e9f08f278196bc87baf1046fe6dee4.js"></script><br>
+            <p>Calculate average speed - (Average speed = Distance in km / Duration in hour)
+            </p>
+            <ul>
+                <li>Runner 1’s average speed runs from 37.5km/h to 60km/h.</li>
+                <li>Runner 2’s average speed runs from 35.1km/h to 93.6km/h. Owner should investigate Runner 2 as the average speed has a 266% fluctuation rate! (93.6/35.1*100)</li>
+                <li>Runner 3’s average speed is 40km/h</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Operational efficiency:</h5>By understanding the average pickup time, the business can identify runners who consistently perform well in terms of quick order pickups. This information enables the business to recognize efficient runners and optimize its delivery operations for faster and more reliable service.</p>
+                <p><h5>Customer satisfaction:</h5>Timely order pickups contribute to better customer satisfaction. By monitoring the average pickup time, the business can ensure that orders are promptly collected and dispatched for delivery. This enhances the overall customer experience and increases the likelihood of repeat orders and positive reviews.</p>
+                <p><h5>Performance evaluation:</h5>Analyzing the average pickup time allows the business to evaluate the performance of individual runners. It provides insights into their efficiency and adherence to pickup schedules. This information can be used for performance reviews, training, and identifying areas for improvement.</p> 
+                <p><h5>Service level improvement: </h5>Understanding the average pickup time helps the business identify potential bottlenecks or areas where the pickup process can be optimized. It may involve streamlining order management, adjusting pickup schedules, or providing additional support to runners to improve overall service levels.</p> 
+                <p><h5>Operational planning:</h5>The average pickup time data aids in operational planning. It helps in assigning suitable runners for specific delivery routes or time slots based on their pickup efficiency. This supports better resource allocation and ensures timely deliveries.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Knowing the average pickup time for each runner helps improve operational efficiency, enhance customer satisfaction, evaluate performance, identify areas for improvement, and enable effective operational planning. It supports the business in delivering faster and more reliable service, leading to enhanced customer loyalty and business growth.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h4 class="blog-subheading">7. What is the successful delivery percentage for each runner?</h4><br>
+            <script src="https://gist.github.com/soopertramp/7e786e4b2c32a0129374fcad0d461810.js"></script><br>
+            <ul>
+                <li>Runner 1 has 100% successful delivery.</li>
+                <li>Runner 2 has 75% successful delivery.</li>
+                <li>Runner 3 has 50% successful delivery.</li>
+            </ul>
+            <h5>Detailed Explanation</h5>
+                <details>
+                <summary>Click to view</summary>
+                <p><h5>Performance Evaluation:</h5>The success percentage allows the business to evaluate each runner's performance. Runners with higher success percentages are likely to be more reliable and efficient in delivering orders. This evaluation can help the business identify top-performing runners and reward or incentivize them accordingly.</p>
+                <p><h5>Quality Control:</h5>By tracking the success percentage over time, the business can monitor the consistency of each runner's performance. If a runner's success percentage drops significantly, it may indicate an issue that needs to be addressed, such as delayed deliveries, damaged goods, or customer complaints. Timely identification of such issues allows the business to take corrective measures, such as providing additional training or investigating potential problems.</p>
+                <p><h5>Customer Satisfaction:</h5>Successful deliveries contribute to customer satisfaction. By analyzing the success percentages, the business can identify areas where improvements are needed to enhance customer experience. For example, if a runner consistently has a low success percentage, it might be necessary to review their route planning, delivery instructions, or communication with customers to minimize delivery failures and increase customer satisfaction.</p> 
+                <p><h5>Resource Allocation:</h5>Understanding the success percentages of individual runners helps with resource allocation and workload distribution. The business can assign more deliveries to runners with higher success percentages, knowing they are likely to handle the orders effectively. On the other hand, runners with lower success percentages might require additional support or training to improve their performance.</p> 
+                <p><h5>Business Growth:</h5>Monitoring and improving the success percentages of runners can contribute to the overall growth of the business. Reliable and successful deliveries enhance the business's reputation, leading to increased customer trust and loyalty. Satisfied customers are more likely to recommend the service to others, resulting in new customers and business expansion.</p>
+                </details><br>
+            <h5>Short Explanation (Summary)</h5>
+            <details><br>
+            <summary>Click to view</summary>
+            <p>Knowing the success percentages of individual runners, the business can evaluate their performance, ensure quality control, improve customer satisfaction, optimize resource allocation, and drive business growth. It helps identify top performers, address issues, enhance customer experience, and make informed decisions for operational efficiency.</p>
+            </details><br>
+          </div>
+
+          <div class="text-justify">
+            <h3 class="blog-subheading text-justify">Conclusion</h3><br>
+            <p>In conclusion, the data analysis of Pizza Runner's database has provided valuable insights into the operations and customer experience of the pizza delivery service. By examining various pizza metrics, we gained a deeper understanding of the ordering patterns and preferences of customers. We discovered the total number of pizzas ordered, the unique customer orders, and the popularity of different pizza types among customers. Additionally, we explored the frequency of changes made to pizzas, such as exclusions and extras, and identified the pizzas that had both exclusions and extras.</p>
+            <p>Furthermore, we delved into the runner and customer experience aspects of Pizza Runner. We analyzed the number of runners signing up over specific periods, examined the average time taken by runners to arrive at the Pizza Runner HQ for order pickup, and explored the relationship between the number of pizzas and the time required to prepare an order. Additionally, we investigated the average distance traveled by customers and identified the difference between the longest and shortest delivery times.</p>
+            <p>The analysis also allowed us to evaluate runner performance. We calculated the average speed for each runner and determined the successful delivery percentage for each runner. These insights can assist Pizza Runner in optimizing their operations, improving delivery efficiency, and enhancing the overall customer experience.</p>
+            <p>By leveraging the power of data analysis, Pizza Runner can make data-driven decisions to streamline their processes, enhance delivery services, and tailor their offerings to better suit customer preferences. This holistic approach will enable Pizza Runner to establish a strong foothold in the competitive pizza delivery market and provide a seamless and delightful experience to their customers.</p>
+            <p>As Pizza Runner continues to grow and expand its operations, regular data analysis and optimization will be key to maintaining customer satisfaction, maximizing efficiency, and driving business success.</p>
+          </div>
+
+
+            <br>
+            <div class="blog-navigation d-flex justify-content-between">
+            <a href="../../../projects_blogs/2. SQL/1st case study/diner.html" class="btn btn-primary btn-previous">Previous</a>
+            <a href="../3rd case study/subscription.html" class="btn btn-primary btn-next">Next</a>
+            </div> 
+     
+        </article>
+    </div>
+    </div>
+</div>
+
+<!-- Footer Start -->
+<div class="bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+    <div class="py-5 px-lg-5">
+        <div class="row g-5 justify-content-center">
+            <div class="col-md-6 col-lg-3">
+                <p class="section-title text-white h5 mb-4 ">Address</p>
+                <p class=""><i class="fa fa-map-marker-alt me-3"></i>India</p>
+                <p class=""><i class="fa fa-phone-alt me-3"></i>+91 94486*****</p>
+                <style>
+                    .email-container {
+                      display: flex;
+                      align-items: center;
+                       /* Added to center the email */
+                    }
+                    .email-container p {
+                      margin-bottom: 0;
+                    }
+                </style>
+                <div class="email-container">
+                    <i class="fa fa-envelope me-3"></i>
+                    <p>pradeepchandrareddy95@gmail.com</p>
+                </div>
+                <div class="d-flex  pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://github.com/soopertramp"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/pradeepchandra-reddy-s-c/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://soopertramp.github.io/portfolio-/"><i class="fa fa-globe"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/soopertramp07/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://datalemur.com/profile"><i class="fa fa-laptop-code"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <p class="section-title text-white h5 mb-4 text-center">Quick Links</p>
+                <div class="d-flex flex-column justify-content-center">
+                    <a class="btn btn-link" href="../../../about.html">About</a>
+                    <a class="btn btn-link" href="../../../contact.html">Contact</a>
+                    <a class="btn btn-link" href="../../../projects.html">Projects</a>
+                    <a class="btn btn-link" href="../../../blogs.html">Blogs</a>
+                    <a class="btn btn-link" href="../../../testimonials.html">Testimonials</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-lg-5">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Pradeepchandra</a>, All Right Reserved. 
+      
+      <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+      Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex and Myself</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <a href="">Cookies</a>
+                        <a href="">Help</a>
+                        <a href="">FQAs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->  
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../lib/wow/wow.min.js"></script>
+    <script src="../../../lib/easing/easing.min.js"></script>
+    <script src="../../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../../lib/counterup/counterup.min.js"></script>
+    <script src="../../../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../../../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../../../lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../../../js/main.js"></script>
+</body>
+
+</html>
