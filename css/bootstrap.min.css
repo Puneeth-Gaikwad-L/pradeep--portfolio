@@ -4329,6 +4329,9 @@ fieldset:disabled .btn {
     justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+    transition: all 0.3s ease-in;
   }
   
   .navbar > .container,
@@ -4387,7 +4390,7 @@ fieldset:disabled .btn {
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 10px;
-    transition: box-shadow 0.15s ease-in-out;
+    transition: box-shadow 0.5s ease-in;
   }
   
   @media (prefers-reduced-motion: reduce) {
